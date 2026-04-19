@@ -1,0 +1,545 @@
+[gd_scene format=3 uid="uid://c6rxo7gh3qnl1"]
+
+[ext_resource type="Script" uid="uid://cy0jqqdmlkpi6" path="res://character_body_3d.gd" id="1_jotil"]
+
+[sub_resource type="Environment" id="Environment_jotil"]
+fog_mode = 1
+fog_light_color = Color(0.39700547, 0.6517363, 0.48999304, 1)
+fog_density = 1.0
+fog_depth_begin = 3.0
+fog_depth_end = 15.9
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jotil"]
+albedo_color = Color(0.25978112, 0.28626928, 0.044865318, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_44gc5"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_612pj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_44gc5"]
+
+[node name="Node3D" type="Node3D" unique_id=1065609160]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=90100077]
+transform = Transform3D(-0.9449489, -0.31707937, 0.08082253, 0, 0.24699906, 0.9690157, -0.32721797, 0.91567034, -0.23340149, 0, 0, 0)
+light_energy = 2.25
+shadow_enabled = true
+directional_shadow_max_distance = 1.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1190682879]
+environment = SubResource("Environment_jotil")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1413819230]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5124512, -0.42149675, 11.312607)
+use_collision = true
+size = Vector3(30.669434, 1, 52.489105)
+material = SubResource("StandardMaterial3D_jotil")
+
+[node name="Игрок" type="Node3D" parent="." unique_id=1159666034]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.924559, 0)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="Игрок" unique_id=1392325504]
+script = ExtResource("1_jotil")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Игрок/CharacterBody3D" unique_id=1022162954]
+mesh = SubResource("CapsuleMesh_44gc5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Игрок/CharacterBody3D" unique_id=927173977]
+shape = SubResource("CapsuleShape3D_612pj")
+
+[node name="Node3D" type="Node3D" parent="Игрок/CharacterBody3D" unique_id=29447787]
+
+[node name="Camera3D" type="Camera3D" parent="Игрок/CharacterBody3D/Node3D" unique_id=573404739]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.54231656, 0)
+
+[node name="Flashlight" type="SpotLight3D" parent="Игрок/CharacterBody3D/Node3D/Camera3D" unique_id=1725256136]
+spot_range = 10.78882
+spot_angle = 17.507616
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=1114175098]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7974396, -0.20129204, 47.816566)
+size = Vector3(27.317413, 0.957428, 34.204407)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=1266885938]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.101863, 3.2661133, 31.236786)
+size = Vector3(10.7039795, 7.5322266, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=1418387798]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5244474, 3.3219452, 31.236786)
+size = Vector3(10.683105, 7.6438904, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=1125919573]
+transform = Transform3D(0.012007542, 0, 0.999928, 0, 1, 0, -0.999928, 0, 0.012007542, 14.818557, 3.2661133, 38.066433)
+size = Vector3(14.747009, 7.5322266, 1)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="." unique_id=1403191880]
+transform = Transform3D(-0.0019897101, 0, 0.9999981, 0, 1, 0, -0.9999981, 0, -0.0019897101, 14.818557, 3.2661133, 52.805077)
+size = Vector3(14.747009, 7.5322266, 1)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="." unique_id=586981324]
+transform = Transform3D(0.012007542, 0, 0.999928, 0, 1, 0, -0.999928, 0, 0.012007542, -11.337264, 3.2661133, 38.066433)
+size = Vector3(14.747009, 7.5322266, 1)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="." unique_id=1637285746]
+transform = Transform3D(-0.0019897101, 0, 0.9999981, 0, 1, 0, -0.9999981, 0, -0.0019897101, -11.337264, 3.2661133, 52.805077)
+size = Vector3(14.747009, 7.5322266, 1)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="." unique_id=625108932]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.101863, 3.2661133, 42.735416)
+size = Vector3(10.7039795, 7.5322266, 1)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="." unique_id=1869337293]
+transform = Transform3D(0.016998675, 0, 0.9998555, 0, 1, 0, -0.9998555, 0, 0.016998675, 5.6254234, 0.7575989, 36.889896)
+size = Vector3(12.003349, 2.5151978, 1)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="." unique_id=930198294]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7974396, -0.20129204, 47.816566)
+size = Vector3(27.317413, 0.957428, 34.204407)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="." unique_id=1788094516]
+transform = Transform3D(0.016998675, 0, 0.9998555, 0, 1, 0, -0.9998555, 0, 0.016998675, 5.6243734, 6.266519, 36.951656)
+size = Vector3(12.126884, 1.8995972, 1)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="." unique_id=164758436]
+transform = Transform3D(0.016998675, 0, 0.9998555, 0, 1, 0, -0.9998555, 0, 0.016998675, 5.3368897, 1.4660323, 36.98559)
+size = Vector3(12.204521, 0.58950806, 1.5737305)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="." unique_id=63886714]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.778976, 2.1532547, 43.00643)
+size = Vector3(2.6306, 5.48291, 1.3272705)
+material = SubResource("StandardMaterial3D_44gc5")
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="." unique_id=592008231]
+transform = Transform3D(0.049215887, 0, 0.9987882, 0, 1, 0, -0.9987882, 0, 0.049215887, 14.84055, 2.1532547, 48.28914)
+size = Vector3(2.6306, 5.48291, 1.3272705)
+material = SubResource("StandardMaterial3D_44gc5")
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="." unique_id=1022539849]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.20297, -0.42149675, 24.714012)
+use_collision = true
+size = Vector3(30.669434, 1, 79.291916)
+material = SubResource("StandardMaterial3D_jotil")
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="." unique_id=1890397781]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.835571, -0.07312012, 0.70648193)
+size = Vector3(29.75122, 0.85375977, 2.4129639)
+
+[node name="CSGBox3D18" type="CSGBox3D" parent="." unique_id=1062367763]
+transform = Transform3D(-0.0005236109, 0, 0.9999999, 0, 1, 0, -0.9999999, 0, -0.0005236109, 1.8959044, -0.07312012, 8.013518)
+size = Vector3(47.349792, 0.85375977, 2.4129639)
+
+[node name="CSGBox3D19" type="CSGBox3D" parent="." unique_id=1165996822]
+transform = Transform3D(-0.0005236109, 0, 0.9999999, 0, 1, 0, -0.9999999, 0, -0.0005236109, -25.855112, -0.07312012, 8.012941)
+size = Vector3(47.349792, 0.85375977, 13.051544)
+
+[node name="Заборчик" type="Node3D" parent="." unique_id=889731225]
+transform = Transform3D(-0.016387966, 0, -0.9998657, 0, 1, 0, 0.9998657, 0, -0.016387966, -8.845478, 0.76506996, 22.189167)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Заборчик" unique_id=923718584]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Заборчик" unique_id=932398396]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8950305, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Заборчик" unique_id=1096669861]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="Заборчик" unique_id=967379798]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="Заборчик" unique_id=2036716547]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 1.998274, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="Node3D" type="Node3D" parent="Заборчик" unique_id=315811721]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8689272, 0, 0)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Заборчик/Node3D" unique_id=1870715061]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Заборчик/Node3D" unique_id=108457141]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8950305, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Заборчик/Node3D" unique_id=182970091]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="Заборчик/Node3D" unique_id=539878476]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="Заборчик/Node3D" unique_id=636867741]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 1.998274, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="Заборчик" unique_id=2002955793]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9317904, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D7" type="CSGCylinder3D" parent="Заборчик" unique_id=331067204]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.826821, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D8" type="CSGCylinder3D" parent="Заборчик" unique_id=337145363]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D9" type="CSGCylinder3D" parent="Заборчик" unique_id=593992417]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D10" type="CSGCylinder3D" parent="Заборчик" unique_id=1310467725]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 5.930064, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D11" type="CSGCylinder3D" parent="Заборчик" unique_id=1427873]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9317904, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D12" type="CSGCylinder3D" parent="Заборчик" unique_id=1183317590]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.826821, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D13" type="CSGCylinder3D" parent="Заборчик" unique_id=832424305]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D14" type="CSGCylinder3D" parent="Заборчик" unique_id=1471158410]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D15" type="CSGCylinder3D" parent="Заборчик" unique_id=64681506]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 5.930064, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D16" type="CSGCylinder3D" parent="Заборчик" unique_id=2033655495]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.7460575, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D17" type="CSGCylinder3D" parent="Заборчик" unique_id=470744178]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.851027, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D18" type="CSGCylinder3D" parent="Заборчик" unique_id=627059194]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, -9.76591, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D19" type="CSGCylinder3D" parent="Заборчик" unique_id=1526124117]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, -9.76591, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D20" type="CSGCylinder3D" parent="Заборчик" unique_id=1905936254]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, -9.747784, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D21" type="CSGCylinder3D" parent="Заборчик" unique_id=1841365322]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.7460575, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D22" type="CSGCylinder3D" parent="Заборчик" unique_id=2117910459]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.851027, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D23" type="CSGCylinder3D" parent="Заборчик" unique_id=1883609564]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, -9.76591, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D24" type="CSGCylinder3D" parent="Заборчик" unique_id=1789754858]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, -9.76591, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D25" type="CSGCylinder3D" parent="Заборчик" unique_id=1482370486]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, -9.747784, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D26" type="CSGCylinder3D" parent="Заборчик" unique_id=200253741]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.814267, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D27" type="CSGCylinder3D" parent="Заборчик" unique_id=247553973]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9192367, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D28" type="CSGCylinder3D" parent="Заборчик" unique_id=1210606450]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, -5.83412, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D29" type="CSGCylinder3D" parent="Заборчик" unique_id=974790441]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, -5.83412, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D30" type="CSGCylinder3D" parent="Заборчик" unique_id=244890422]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, -5.8159933, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D31" type="CSGCylinder3D" parent="Заборчик" unique_id=1485445567]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.814267, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D32" type="CSGCylinder3D" parent="Заборчик" unique_id=717374116]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9192367, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D33" type="CSGCylinder3D" parent="Заборчик" unique_id=685786218]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, -5.83412, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D34" type="CSGCylinder3D" parent="Заборчик" unique_id=216199879]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, -5.83412, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D35" type="CSGCylinder3D" parent="Заборчик" unique_id=1310469448]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, -5.8159933, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="Заборчик2" type="Node3D" parent="." unique_id=14035632]
+transform = Transform3D(-0.016387966, 0, -0.9998657, 0, 1, 0, 0.9998657, 0, -0.016387966, -8.845478, 0.76506996, -9.902761)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Заборчик2" unique_id=1140187742]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Заборчик2" unique_id=1764590562]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8950305, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Заборчик2" unique_id=737583149]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="Заборчик2" unique_id=30973615]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="Заборчик2" unique_id=1699924522]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 1.998274, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="Node3D" type="Node3D" parent="Заборчик2" unique_id=1396190989]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8689272, 0, 0)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Заборчик2/Node3D" unique_id=111196848]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Заборчик2/Node3D" unique_id=1584492233]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8950305, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Заборчик2/Node3D" unique_id=1808714410]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="Заборчик2/Node3D" unique_id=1102302000]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="Заборчик2/Node3D" unique_id=1641388252]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 1.998274, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="Заборчик2" unique_id=836903523]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9317904, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D7" type="CSGCylinder3D" parent="Заборчик2" unique_id=2072635053]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.826821, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D8" type="CSGCylinder3D" parent="Заборчик2" unique_id=1322245461]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D9" type="CSGCylinder3D" parent="Заборчик2" unique_id=71267266]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D10" type="CSGCylinder3D" parent="Заборчик2" unique_id=488296139]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 5.930064, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D11" type="CSGCylinder3D" parent="Заборчик2" unique_id=571464018]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9317904, 0.67749023, 0)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D12" type="CSGCylinder3D" parent="Заборчик2" unique_id=977870505]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.826821, 0.75, 0)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D13" type="CSGCylinder3D" parent="Заборчик2" unique_id=752996617]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D14" type="CSGCylinder3D" parent="Заборчик2" unique_id=1689002124]
+transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D15" type="CSGCylinder3D" parent="Заборчик2" unique_id=411717178]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 5.930064, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D16" type="CSGCylinder3D" parent="Заборчик2" unique_id=830761198]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.44347, 0.67749023, -0.4620285)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D17" type="CSGCylinder3D" parent="Заборчик2" unique_id=1337477556]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.338501, 0.75, -0.4620285)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D18" type="CSGCylinder3D" parent="Заборчик2" unique_id=685545764]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 18.423616, 0.80823314, -0.4620304)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D19" type="CSGCylinder3D" parent="Заборчик2" unique_id=571272019]
+transform = Transform3D(0.6076254, -0.79422396, 0, 0.79422385, 0.6076254, 0, 0, 1.8626451e-09, 1, 18.423616, 0.80823314, -0.4620304)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D20" type="CSGCylinder3D" parent="Заборчик2" unique_id=769661410]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 7.275958e-12, 0, 1, 18.441746, 2.3808913, -0.46202946)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D21" type="CSGCylinder3D" parent="Заборчик2" unique_id=1259390885]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.44347, 0.67749023, -0.4620285)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D22" type="CSGCylinder3D" parent="Заборчик2" unique_id=1989583235]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.338501, 0.75, -0.4620285)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D23" type="CSGCylinder3D" parent="Заборчик2" unique_id=1680612998]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 18.423616, 0.80823314, -0.4620304)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D24" type="CSGCylinder3D" parent="Заборчик2" unique_id=548463365]
+transform = Transform3D(0.6076254, -0.79422396, 0, 0.79422385, 0.6076254, 0, 0, 1.8626451e-09, 1, 18.423616, 0.80823314, -0.4620304)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D25" type="CSGCylinder3D" parent="Заборчик2" unique_id=243821211]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 7.275958e-12, 0, 1, 18.441746, 2.3808913, -0.46202946)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D26" type="CSGCylinder3D" parent="Заборчик2" unique_id=291031617]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.375261, 0.67749023, -0.4620304)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D27" type="CSGCylinder3D" parent="Заборчик2" unique_id=317645146]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.370564, 0.75, -0.3325529)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D28" type="CSGCylinder3D" parent="Заборчик2" unique_id=1200863298]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 14.455683, 0.80823314, -0.332551)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D29" type="CSGCylinder3D" parent="Заборчик2" unique_id=337102969]
+transform = Transform3D(0.6076254, -0.794224, 0, 0.79422385, 0.6076254, 0, 0, 1.8626451e-09, 1, 14.455683, 0.80823314, -0.332551)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D30" type="CSGCylinder3D" parent="Заборчик2" unique_id=1655091223]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, -5.8159933, 2.3808913, 0)
+radius = 0.2109375
+height = 5.588135
+
+[node name="CSGCylinder3D31" type="CSGCylinder3D" parent="Заборчик2" unique_id=820612335]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.375261, 0.67749023, -0.4620304)
+radius = 0.1303711
+height = 3.3549805
+
+[node name="CSGCylinder3D32" type="CSGCylinder3D" parent="Заборчик2" unique_id=1664584571]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.370564, 0.75, -0.3325529)
+radius = 0.1303711
+height = 3.5
+
+[node name="CSGCylinder3D33" type="CSGCylinder3D" parent="Заборчик2" unique_id=1304793935]
+transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 14.455683, 0.80823314, -0.332551)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D34" type="CSGCylinder3D" parent="Заборчик2" unique_id=2047232366]
+transform = Transform3D(0.6076254, -0.794224, 0, 0.79422385, 0.6076254, 0, 0, 1.8626451e-09, 1, 14.455683, 0.80823314, -0.332551)
+radius = 0.1303711
+height = 5.062378
+
+[node name="CSGCylinder3D35" type="CSGCylinder3D" parent="Заборчик2" unique_id=2131586148]
+transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 7.275958e-12, 0, 1, 15.317888, 2.3808913, -0.3463869)
+radius = 0.2109375
+height = 5.588135
