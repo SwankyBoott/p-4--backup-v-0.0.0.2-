@@ -1,206 +1,795 @@
 [gd_scene format=3 uid="uid://b63p2yfncj0ge"]
 
-[node name="Заборчик" type="Node3D" unique_id=1239083974]
+[node name="Node3D" type="Node3D" unique_id=167664544]
 
-[node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=1760062828]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67749023, 0)
-radius = 0.1303711
-height = 3.3549805
+[node name="ograda" type="Node3D" parent="." unique_id=1265850337]
 
-[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="." unique_id=270709579]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8950305, 0.75, 0)
-radius = 0.1303711
-height = 3.5
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda" unique_id=115663212]
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="." unique_id=563820135]
-transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda" unique_id=2078944990]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="." unique_id=1953032401]
-transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda" unique_id=1974105964]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
 
-[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="." unique_id=296977185]
-transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 1.998274, 2.3808913, 0)
-radius = 0.2109375
-height = 5.588135
+[node name="ograda" type="Node3D" parent="ograda" unique_id=771783599]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
 
-[node name="Node3D" type="Node3D" parent="." unique_id=1876305506]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8689272, 0, 0)
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda" unique_id=258791061]
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D" unique_id=1129717000]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67749023, 0)
-radius = 0.1303711
-height = 3.3549805
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda" unique_id=1873491571]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D" unique_id=1489627549]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8950305, 0.75, 0)
-radius = 0.1303711
-height = 3.5
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda" unique_id=1597573448]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
 
-[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D" unique_id=1330515344]
-transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="ograda2" type="Node3D" parent="ograda" unique_id=875207310]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
 
-[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="Node3D" unique_id=1719441195]
-transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 1.9801472, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda2" unique_id=434941033]
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="Node3D" unique_id=820116232]
-transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 1.998274, 2.3808913, 0)
-radius = 0.2109375
-height = 5.588135
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda2" unique_id=1714781487]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="." unique_id=886496051]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9317904, 0.67749023, 0)
-radius = 0.1303711
-height = 3.3549805
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda2" unique_id=353401153]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
 
-[node name="CSGCylinder3D7" type="CSGCylinder3D" parent="." unique_id=1878199398]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.826821, 0.75, 0)
-radius = 0.1303711
-height = 3.5
+[node name="ograda" type="Node3D" parent="ograda/ograda2" unique_id=1121341538]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
 
-[node name="CSGCylinder3D8" type="CSGCylinder3D" parent="." unique_id=1304687154]
-transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda2/ograda" unique_id=1529139426]
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D9" type="CSGCylinder3D" parent="." unique_id=1432100582]
-transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda2/ograda" unique_id=95659518]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D10" type="CSGCylinder3D" parent="." unique_id=296599522]
-transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 5.930064, 2.3808913, 0)
-radius = 0.2109375
-height = 5.588135
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda2/ograda" unique_id=909260909]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
 
-[node name="CSGCylinder3D11" type="CSGCylinder3D" parent="." unique_id=1027017920]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9317904, 0.67749023, 0)
-radius = 0.1303711
-height = 3.3549805
+[node name="ograda3" type="Node3D" parent="ograda" unique_id=1598495163]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.197578)
 
-[node name="CSGCylinder3D12" type="CSGCylinder3D" parent="." unique_id=1594976311]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.826821, 0.75, 0)
-radius = 0.1303711
-height = 3.5
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda3" unique_id=1625854091]
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D13" type="CSGCylinder3D" parent="." unique_id=715609017]
-transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda3" unique_id=2064149523]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D14" type="CSGCylinder3D" parent="." unique_id=40681569]
-transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, 5.9119377, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda3" unique_id=1492412174]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
 
-[node name="CSGCylinder3D15" type="CSGCylinder3D" parent="." unique_id=1748150745]
-transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, 5.930064, 2.3808913, 0)
-radius = 0.2109375
-height = 5.588135
+[node name="ograda" type="Node3D" parent="ograda/ograda3" unique_id=1643068514]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
 
-[node name="CSGCylinder3D16" type="CSGCylinder3D" parent="." unique_id=1727223996]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.7460575, 0.67749023, 0)
-radius = 0.1303711
-height = 3.3549805
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda3/ograda" unique_id=1601824076]
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D17" type="CSGCylinder3D" parent="." unique_id=2119478561]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.851027, 0.75, 0)
-radius = 0.1303711
-height = 3.5
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda3/ograda" unique_id=466524875]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D18" type="CSGCylinder3D" parent="." unique_id=2001518926]
-transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, -9.76591, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda3/ograda" unique_id=846586848]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
 
-[node name="CSGCylinder3D19" type="CSGCylinder3D" parent="." unique_id=1386340610]
-transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, -9.76591, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="ograda2" type="Node3D" parent="ograda/ograda3" unique_id=1818552586]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
 
-[node name="CSGCylinder3D20" type="CSGCylinder3D" parent="." unique_id=862960403]
-transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, -9.747784, 2.3808913, 0)
-radius = 0.2109375
-height = 5.588135
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda3/ograda2" unique_id=524888516]
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D21" type="CSGCylinder3D" parent="." unique_id=1098056055]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.7460575, 0.67749023, 0)
-radius = 0.1303711
-height = 3.3549805
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda3/ograda2" unique_id=1653813369]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D22" type="CSGCylinder3D" parent="." unique_id=1799396081]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.851027, 0.75, 0)
-radius = 0.1303711
-height = 3.5
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda3/ograda2" unique_id=754589462]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
 
-[node name="CSGCylinder3D23" type="CSGCylinder3D" parent="." unique_id=912721593]
-transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, -9.76591, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="ograda" type="Node3D" parent="ograda/ograda3/ograda2" unique_id=1282498562]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
 
-[node name="CSGCylinder3D24" type="CSGCylinder3D" parent="." unique_id=1598766332]
-transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, -9.76591, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda3/ograda2/ograda" unique_id=1305034991]
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D25" type="CSGCylinder3D" parent="." unique_id=790901105]
-transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, -9.747784, 2.3808913, 0)
-radius = 0.2109375
-height = 5.588135
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda3/ograda2/ograda" unique_id=1847070844]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D26" type="CSGCylinder3D" parent="." unique_id=1791634569]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.814267, 0.67749023, 0)
-radius = 0.1303711
-height = 3.3549805
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda3/ograda2/ograda" unique_id=645678828]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
 
-[node name="CSGCylinder3D27" type="CSGCylinder3D" parent="." unique_id=1942387646]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9192367, 0.75, 0)
-radius = 0.1303711
-height = 3.5
+[node name="ograda4" type="Node3D" parent="ograda" unique_id=1509545531]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -20.366926)
 
-[node name="CSGCylinder3D28" type="CSGCylinder3D" parent="." unique_id=282489862]
-transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, -5.83412, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda4" unique_id=1162568061]
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D29" type="CSGCylinder3D" parent="." unique_id=60918218]
-transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, -5.83412, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda4" unique_id=1170170181]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D30" type="CSGCylinder3D" parent="." unique_id=854995730]
-transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, -5.8159933, 2.3808913, 0)
-radius = 0.2109375
-height = 5.588135
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda4" unique_id=2024668322]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
 
-[node name="CSGCylinder3D31" type="CSGCylinder3D" parent="." unique_id=1779392299]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.814267, 0.67749023, 0)
-radius = 0.1303711
-height = 3.3549805
+[node name="ograda" type="Node3D" parent="ograda/ograda4" unique_id=592767917]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
 
-[node name="CSGCylinder3D32" type="CSGCylinder3D" parent="." unique_id=1970133654]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9192367, 0.75, 0)
-radius = 0.1303711
-height = 3.5
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda4/ograda" unique_id=2111231225]
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D33" type="CSGCylinder3D" parent="." unique_id=1293331211]
-transform = Transform3D(0.62702537, 0.7789988, 0, -0.7789988, 0.62702537, 0, 0, 0, 1, -5.83412, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda4/ograda" unique_id=1135804083]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
 
-[node name="CSGCylinder3D34" type="CSGCylinder3D" parent="." unique_id=1055271924]
-transform = Transform3D(0.6076254, -0.79422385, 0, 0.79422385, 0.6076254, 0, 0, 0, 1, -5.83412, 0.80823314, 0)
-radius = 0.1303711
-height = 5.062378
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda4/ograda" unique_id=361260382]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
 
-[node name="CSGCylinder3D35" type="CSGCylinder3D" parent="." unique_id=1477782884]
-transform = Transform3D(0.0022340398, 0.9999975, 0, -0.9999975, 0.0022340398, 0, 0, 0, 1, -5.8159933, 2.3808913, 0)
-radius = 0.2109375
-height = 5.588135
+[node name="ograda2" type="Node3D" parent="ograda/ograda4" unique_id=1839339192]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda4/ograda2" unique_id=1436479186]
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda4/ograda2" unique_id=1248453380]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda4/ograda2" unique_id=482250836]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="ograda/ograda4/ograda2" unique_id=1732592157]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda4/ograda2/ograda" unique_id=214446648]
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda4/ograda2/ograda" unique_id=1039702818]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda4/ograda2/ograda" unique_id=1510871607]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="ograda/ograda4" unique_id=1459616988]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.197578)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda4/ograda3" unique_id=808059864]
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda4/ograda3" unique_id=223232210]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda4/ograda3" unique_id=1972394119]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="ograda/ograda4/ograda3" unique_id=1980119181]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda4/ograda3/ograda" unique_id=1655837075]
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda4/ograda3/ograda" unique_id=860175112]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda4/ograda3/ograda" unique_id=159964842]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="ograda/ograda4/ograda3" unique_id=1459814349]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda4/ograda3/ograda2" unique_id=181394520]
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda4/ograda3/ograda2" unique_id=1372524800]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda4/ograda3/ograda2" unique_id=1235561368]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="ograda/ograda4/ograda3/ograda2" unique_id=1408293825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="ograda/ograda4/ograda3/ograda2/ograda" unique_id=2135015402]
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="ograda/ograda4/ograda3/ograda2/ograda" unique_id=101888423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.07519531
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="ograda/ograda4/ograda3/ograda2/ograda" unique_id=1795630097]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.07519531
+height = 2.6027756
+
+[node name="Node3D" type="Node3D" parent="." unique_id=2100580205]
+
+[node name="ograda" type="Node3D" parent="Node3D" unique_id=1664181571]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.500326, 0, 0)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda" unique_id=184484469]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda" unique_id=1558647769]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda" unique_id=1546056594]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="Node3D/ograda" unique_id=331189182]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda" unique_id=847740355]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda" unique_id=2046037681]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda" unique_id=823512783]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="Node3D/ograda" unique_id=1507699957]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda2" unique_id=876822560]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda2" unique_id=816113535]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda2" unique_id=1392170918]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="Node3D/ograda/ograda2" unique_id=1234202673]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda2/ograda" unique_id=1582682527]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda2/ograda" unique_id=330599961]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda2/ograda" unique_id=836544729]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="Node3D/ograda" unique_id=867385123]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.197578)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda3" unique_id=1578034844]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda3" unique_id=2124690085]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda3" unique_id=1151323778]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="Node3D/ograda/ograda3" unique_id=665148282]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda3/ograda" unique_id=271701295]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda3/ograda" unique_id=317881060]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda3/ograda" unique_id=1306389561]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="Node3D/ograda/ograda3" unique_id=52979875]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda3/ograda2" unique_id=1053041493]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda3/ograda2" unique_id=654237216]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda3/ograda2" unique_id=2071860081]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="Node3D/ograda/ograda3/ograda2" unique_id=1358684507]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda3/ograda2/ograda" unique_id=1478565929]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda3/ograda2/ograda" unique_id=612509696]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda3/ograda2/ograda" unique_id=189237506]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda4" type="Node3D" parent="Node3D/ograda" unique_id=2014344568]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -20.366926)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda4" unique_id=900115602]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda4" unique_id=499100427]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda4" unique_id=410115459]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="Node3D/ograda/ograda4" unique_id=890945155]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda" unique_id=1316293513]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda" unique_id=8982487]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda" unique_id=2146116726]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="Node3D/ograda/ograda4" unique_id=1423594656]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda2" unique_id=551410875]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda2" unique_id=1251518385]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda2" unique_id=1678646188]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="Node3D/ograda/ograda4/ograda2" unique_id=936924908]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda2/ograda" unique_id=271965100]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda2/ograda" unique_id=401320011]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda2/ograda" unique_id=385289350]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="Node3D/ograda/ograda4" unique_id=1526561104]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.197578)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3" unique_id=1443107434]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3" unique_id=1059207888]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3" unique_id=489003066]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="Node3D/ograda/ograda4/ograda3" unique_id=241971286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3/ograda" unique_id=1728423502]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3/ograda" unique_id=1301575714]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3/ograda" unique_id=235277382]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="Node3D/ograda/ograda4/ograda3" unique_id=1576015948]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3/ograda2" unique_id=786535463]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3/ograda2" unique_id=1032668326]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3/ograda2" unique_id=986819041]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="Node3D/ograda/ograda4/ograda3/ograda2" unique_id=1970023320]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3/ograda2/ograda" unique_id=1881717946]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.3560829)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3/ograda2/ograda" unique_id=450042832]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/ograda/ograda4/ograda3/ograda2/ograda" unique_id=481515569]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="komplectarmatur" type="Node3D" parent="." unique_id=2060492869]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.083065, 0, 0)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="komplectarmatur" unique_id=734223283]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25073242, 0)
+radius = 0.029296875
+height = 2.5014648
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="komplectarmatur" unique_id=1830618871]
+transform = Transform3D(1, 0, 0, 0, 0.9650165, -0.26218918, 0, 0.26218918, 0.9650165, 0.93652344, 0.69396275, 0.078932226)
+radius = 0.029
+height = 0.63952637
+sides = 9
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="komplectarmatur" unique_id=639333861]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8037453, -0.70526123, 0)
+radius = 0.029296875
+height = 1.5924072
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="komplectarmatur" unique_id=787919872]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9379673, -0.54577637, 0)
+radius = 0.029296875
+height = 1.911377
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="komplectarmatur" unique_id=140677425]
+transform = Transform3D(1, 0, 0, 0, 0.9659258, -0.25881904, 0, 0.25881904, 0.9659258, 1.8053589, 0.27298686, 0.056673806)
+radius = 0.029296875
+height = 0.49632263
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="komplectarmatur" unique_id=1483364619]
+transform = Transform3D(1, 0, 0, 0, 0.7071068, -0.7071068, 0, 0.7071068, 0.7071068, 1.8053589, 0.6797272, 0.29992366)
+radius = 0.029296875
+height = 0.5258484
+
+[node name="chytpolomannuyzabor" type="Node3D" parent="." unique_id=2130054595]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.9262159)
+visible = false
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="chytpolomannuyzabor" unique_id=714326062]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.100021)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="chytpolomannuyzabor" unique_id=1953049547]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.593809)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="chytpolomannuyzabor" unique_id=1081361903]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, 3.8484192)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="chytpolomannuyzabor" unique_id=1537122285]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.119774)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D8" type="CSGCylinder3D" parent="chytpolomannuyzabor" unique_id=1837429901]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, 5.2624187)
+use_collision = true
+radius = 0.047851563
+height = 0.3788433
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="chytpolomannuyzabor" unique_id=197351455]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.0019497871, 0.7640282, 6.152128)
+radius = 0.029296875
+height = 1.5924072
+
+[node name="CSGCylinder3D10" type="CSGCylinder3D" parent="chytpolomannuyzabor" unique_id=2134456216]
+transform = Transform3D(1, 0, 0, 0, -0.2588191, -0.96592593, 0, 0.96592593, -0.2588191, 0.003563404, 0.7073541, 7.130377)
+radius = 0.029296875
+height = 0.49632263
+
+[node name="CSGCylinder3D11" type="CSGCylinder3D" parent="chytpolomannuyzabor" unique_id=1092933714]
+transform = Transform3D(1, 0, 0, 0, -0.7071069, -0.70710677, 0, 0.70710677, -0.7071069, 0.003563404, 0.46410418, 7.537117)
+radius = 0.029296875
+height = 0.5258484
+
+[node name="stair" type="Node3D" parent="." unique_id=9231367]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.359001)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="stair" unique_id=47626666]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="stair" unique_id=1730961920]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4, 5)
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="stair" unique_id=1359432253]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.8, 6)
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="stair" unique_id=808965176]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2, 7)
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="stair" unique_id=1374726076]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.20114258, 4)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="stair" unique_id=614751294]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.201, 4)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="stair" unique_id=463748688]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.8, 5)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="stair" unique_id=1942102884]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.8, 5)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="stair" unique_id=184817171]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.20114258, 4)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="stair" unique_id=1555442376]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.201, 4)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="stair" unique_id=1916683514]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.8, 5)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="stair" unique_id=2076177939]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.8, 5)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="stair" unique_id=2086398147]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.2, 6)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="stair" unique_id=104911902]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.2, 6)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="stair" unique_id=1920894304]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.8, 7)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="stair" unique_id=86145701]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.8, 7)
+size = Vector3(1, 0.65, 1)

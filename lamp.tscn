@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://di2gvjicde2o7"]
+
+[node name="lampa" type="Node3D" unique_id=1825681846]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5454748, 0, 0)
+
+[node name="lmpa" type="Node3D" parent="." unique_id=817786331]
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="lmpa" unique_id=35481083]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="lmpa/CSGSphere3D" unique_id=682470584]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="lmpa" unique_id=1204529629]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -0.018310547, 8.0037943e-10, 0)
+radius = 0.065
+height = 3.465
+
+[node name="lampaaa" type="Node3D" parent="." unique_id=456251373]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5752726, 1.313241, 0)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="lampaaa" unique_id=250267468]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.3918457, -0.16319698)
+radius = 0.064453125
+height = 0.96118164
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="lampaaa" unique_id=1583841424]
+transform = Transform3D(1, 0, 0, 0, -1, 1.1920929e-07, 0, -1.1920929e-07, -1, 0, -0.53704953, 0.26667383)
+radius = 0.064453125
+height = 0.3482666
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="lampaaa" unique_id=2011207792]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, 0, -0.8554374, 0.26521403)
+height = 0.90234375
+sides = 4
+cone = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="lampaaa" unique_id=1529173972]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -1.0015604, 0.25240517)
+spot_range = 5.0738263
+spot_angle = 36.695618

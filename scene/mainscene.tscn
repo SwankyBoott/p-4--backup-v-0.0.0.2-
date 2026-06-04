@@ -1,0 +1,2671 @@
+[gd_scene format=3 uid="uid://dvqq6laodm4r0"]
+
+[ext_resource type="Texture2D" uid="uid://blnpgym80e3ji" path="res://materials/disbm0VrnWRgHhaXHUcc8x4fVlVbsVc8ogXxNWkPexkU9H_Ec69AErjvK6xV6W8kNXp0kuhwJVTl-Bty79oY113S.jpg" id="1_wx3ht"]
+[ext_resource type="Texture2D" uid="uid://bfw1lr5mfxb5u" path="res://materials/bh29fRly2STuLZgJ8F_3kkv_APBFpxTY42rok-jRPZJkYdP2OKIOwLRDHKLy4v88YKz6miQOQxwsrB-J1egeDQi3.jpg" id="2_uwngr"]
+[ext_resource type="PackedScene" uid="uid://yg7lkacrnt5u" path="res://character.tscn" id="3_8ajfr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dn5c8"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xtb1e"]
+albedo_texture = ExtResource("1_wx3ht")
+uv2_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8bn17"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1ftms"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_28t8q"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r7qwr"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jbpqh"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ewkxy"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5au1j"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xkysf"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dgcol"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5of3b"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7b6ne"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iwfn6"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8s8ki"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e2pok"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sya50"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5gj1e"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8jhwh"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1cnxy"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xs15d"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4ofsq"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4p23x"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wglsn"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7s6kp"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0lhry"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wx3ht"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_syvk7"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ccj40"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7f6mb"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5lfti"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_18wdu"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nx0of"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w76ko"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0ibrq"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5mwfd"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_li4ja"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xqued"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jtreq"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j8b8d"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lc52x"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2dgxd"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x1mr1"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8gyya"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ek7m"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5sl4u"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sm3u2"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xf0pi"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w2c5i"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_312mw"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qvxvv"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4olqe"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_03120"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_56ibc"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pgq4v"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iwoyl"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ocswj"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j64eu"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hev8t"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1g5l6"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x351s"]
+albedo_texture = ExtResource("2_uwngr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uwngr"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n4v8f"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3y525"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8ajfr"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j2iek"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oxmnm"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="Environment" id="Environment_wtdyi"]
+fog_enabled = true
+fog_light_color = Color(0.5528931, 0.58829606, 0.6433609, 1)
+fog_light_energy = 0.85
+fog_density = 0.0255
+fog_sky_affect = 0.925
+adjustment_enabled = true
+adjustment_saturation = 1.28
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2sb0n"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e50gg"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bpdjt"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c05vm"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xkwqj"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3afhu"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q2042"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_25g0w"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r076x"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lphq0"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rx7xk"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xhh5v"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8f4n4"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_axod6"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yamtw"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vio1a"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_35tc3"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kqvdy"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oub63"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_genqk"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q3vvj"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h146a"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rk5yp"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_12uh2"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7fsmq"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_72oqw"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7fi8h"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fd0sn"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uvypg"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xxnm2"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ol66e"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3qa8f"]
+albedo_texture = ExtResource("1_wx3ht")
+
+[node name="Node3D" type="Node3D" unique_id=1389887474]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=2097628054]
+transform = Transform3D(-0.7454761, -0.6665323, 3.077815e-07, 0.66640455, -0.7453331, -0.019580737, 0.013051391, -0.014596716, 0.9998085, 11.287983, 17.44508, 51.227257)
+visible = false
+light_energy = 0.091
+shadow_enabled = true
+directional_shadow_max_distance = 1.0
+
+[node name="сама ссена" type="Node3D" parent="." unique_id=59615681]
+
+[node name="кубы и блоки" type="Node3D" parent="сама ссена" unique_id=810667872]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="сама ссена/кубы и блоки" unique_id=1336428347]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -26.025)
+material_override = SubResource("StandardMaterial3D_dn5c8")
+use_collision = true
+size = Vector3(3, 1, 92.044975)
+material = SubResource("StandardMaterial3D_xtb1e")
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="сама ссена/кубы и блоки" unique_id=644076786]
+transform = Transform3D(0.70710677, -0.70710677, 0, 0.70710677, 0.70710677, 0, 0, 0, 1, 3.6005073, 9.7845545, -47.11563)
+material_override = SubResource("StandardMaterial3D_8bn17")
+size = Vector3(3.1143188, 9.022369, 47.20575)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="сама ссена/кубы и блоки" unique_id=1174667698]
+transform = Transform3D(0.7071067, -0.7071067, 0, -0.7071067, -0.7071067, 8.742278e-08, -6.181723e-08, -6.181723e-08, -1, -3.2431517, 10.399868, -47.12918)
+material_override = SubResource("StandardMaterial3D_1ftms")
+size = Vector3(3.1967773, 9.022369, 47.24227)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="сама ссена/кубы и блоки" unique_id=636195741]
+transform = Transform3D(0.96629375, 0.25722793, -0.0104951905, -0.25097328, 0.9321494, -0.26097965, -0.057348184, 0.25481704, 0.96528745, -0.031073522, -1.6972162, 29.729473)
+material_override = SubResource("StandardMaterial3D_28t8q")
+use_collision = true
+size = Vector3(3, 1, 12.028778)
+
+[node name="stair" type="Node3D" parent="сама ссена/кубы и блоки" unique_id=953600191]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0.368, -68.56)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=1227487630]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+material_override = SubResource("StandardMaterial3D_r7qwr")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=856792603]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4, 5)
+material_override = SubResource("StandardMaterial3D_jbpqh")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=1988357825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.8, 6)
+material_override = SubResource("StandardMaterial3D_ewkxy")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=1029204427]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2, 7)
+material_override = SubResource("StandardMaterial3D_5au1j")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=828751927]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.20114258, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=67517815]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.201, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=425805967]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=463732961]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=1711908507]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.20114258, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=1596205269]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.201, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=535124506]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=394618903]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=1485165223]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.2, 6)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=986775694]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.2, 6)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=818013408]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.8, 7)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair" unique_id=411196426]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.8, 7)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="stair" type="Node3D" parent="сама ссена/кубы и блоки/stair" unique_id=878700363]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.6, 3.91)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=177040102]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+material_override = SubResource("StandardMaterial3D_xkysf")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=1537270270]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4, 5)
+material_override = SubResource("StandardMaterial3D_dgcol")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=1963108707]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.8, 6)
+material_override = SubResource("StandardMaterial3D_5of3b")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=41473533]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2, 7)
+material_override = SubResource("StandardMaterial3D_7b6ne")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=1805178009]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.20114258, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=448324728]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.201, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=2131021634]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=2001606094]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=2102870532]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.20114258, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=912245287]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.201, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=346468879]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=330440573]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=1344826189]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.2, 6)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=741754781]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.2, 6)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=1107675818]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.8, 7)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair" unique_id=1552742894]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.8, 7)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="stair2" type="Node3D" parent="сама ссена/кубы и блоки/stair" unique_id=1291650973]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5970357e-06, -2.8032188, 6.901291)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=375028649]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=977090205]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4, 5)
+material_override = SubResource("StandardMaterial3D_iwfn6")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=1223660239]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.8, 6)
+material_override = SubResource("StandardMaterial3D_8s8ki")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=2049874390]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2, 7)
+material_override = SubResource("StandardMaterial3D_e2pok")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=587185861]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.20114258, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=138643608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.201, 4)
+material_override = SubResource("StandardMaterial3D_sya50")
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=1673602034]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=2110736612]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=450683794]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.20114258, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=157708453]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.201, 4)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=1665360454]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=372580756]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.8, 5)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=1656562693]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.2, 6)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=400379222]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.2, 6)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=142775068]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.8, 7)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=662006372]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.8, 7)
+use_collision = true
+size = Vector3(1, 0.65, 1)
+
+[node name="stair" type="Node3D" parent="сама ссена/кубы и блоки/stair/stair2" unique_id=2067324184]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.6, 3.91)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=660671074]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+material_override = SubResource("StandardMaterial3D_5gj1e")
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=45647312]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4, 5)
+material_override = SubResource("StandardMaterial3D_8jhwh")
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=1651031982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.8, 6)
+material_override = SubResource("StandardMaterial3D_1cnxy")
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=709577112]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2, 7)
+material_override = SubResource("StandardMaterial3D_xs15d")
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=1347847887]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.20114258, 4)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=201563984]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.201, 4)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=1892157692]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.8, 5)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=777335456]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.8, 5)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=707931613]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.20114258, 4)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=1793479937]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.201, 4)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=583447315]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -0.8, 5)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=286341081]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -0.8, 5)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=307516247]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.2, 6)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=414662718]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.2, 6)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=1613330616]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1.8, 7)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="сама ссена/кубы и блоки/stair/stair2/stair" unique_id=1708691222]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.8, 7)
+size = Vector3(1, 0.65, 1)
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="сама ссена/кубы и блоки" unique_id=536117978]
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="сама ссена/кубы и блоки/CSGCombiner3D" unique_id=1259842508]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5730367, -32.35856, -47.093628)
+size = Vector3(1, 79.019424, 45.187256)
+material = SubResource("StandardMaterial3D_4ofsq")
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="сама ссена/кубы и блоки/CSGCombiner3D" unique_id=785761226]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.3136272, -31.169132, -47.618896)
+size = Vector3(4.456543, 76.64057, 46.237793)
+material = SubResource("StandardMaterial3D_4p23x")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/кубы и блоки/CSGCombiner3D/CSGBox3D8" unique_id=2142465962]
+transform = Transform3D(1.0000012, 0, 0, 0, 1.0000012, 0, 0, 0, 1, -1.181212, 33.354588, -7.3852882)
+operation = 2
+size = Vector3(4.541992, 4.562, 2)
+material = SubResource("StandardMaterial3D_wglsn")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="сама ссена/кубы и блоки/CSGCombiner3D" unique_id=1023473544]
+transform = Transform3D(0.9999928, 0.0016453877, -0.0034258177, -0.0016460082, 0.9999986, -0.000178965, 0.0034255197, 0.00018458227, 0.99999416, 0, -37.994, -55)
+operation = 2
+size = Vector3(15, 85.987305, 10)
+material = SubResource("StandardMaterial3D_7s6kp")
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="сама ссена/кубы и блоки" unique_id=2135550665]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.159546, 0, -55)
+material_override = SubResource("StandardMaterial3D_0lhry")
+use_collision = true
+size = Vector3(33.68091, 1, 3)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="сама ссена/кубы и блоки" unique_id=743523698]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06991625, -22.043697)
+material_override = SubResource("StandardMaterial3D_wx3ht")
+use_collision = true
+size = Vector3(15, 1, 3)
+
+[node name="стнеы" type="CSGCombiner3D" parent="сама ссена/кубы и блоки" unique_id=113725896]
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="сама ссена/кубы и блоки/стнеы" unique_id=668347287]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -170.67, -105.443, -24)
+material_override = SubResource("StandardMaterial3D_syvk7")
+use_collision = true
+size = Vector3(333.2342, 368.56873, 1)
+material = SubResource("StandardMaterial3D_ccj40")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="сама ссена/кубы и блоки/стнеы/CSGBox3D3" unique_id=1374004072]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 141.89857, 114.60095, 0.1462822)
+operation = 2
+size = Vector3(1.8497344, 4.0390625, 0.9411316)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/кубы и блоки/стнеы/CSGBox3D3" unique_id=288378161]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 107.53007, 130.373, 0)
+operation = 2
+size = Vector3(1.8220215, 2.9510498, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="сама ссена/кубы и блоки/стнеы/CSGBox3D3" unique_id=729183984]
+transform = Transform3D(1, 0, 0, 0, 0.9659258, -0.25881904, 0, 0.25881904, 0.9659258, 124.044586, 89.43723, -0.043800354)
+operation = 2
+size = Vector3(1.8135986, 2.8305054, 1.9780273)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="сама ссена/кубы и блоки/стнеы/CSGBox3D3" unique_id=305756600]
+transform = Transform3D(1, 0, 0, 0, 1.0000011, 2.9802322e-08, 0, -2.9802322e-08, 1.0000011, 124.03717, 89.3429, -0.19109535)
+size = Vector3(1.8251343, 2.9472656, 1)
+material = SubResource("StandardMaterial3D_7f6mb")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/кубы и блоки/стнеы" unique_id=1515392264]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 170.507, -105.443, -24)
+material_override = SubResource("StandardMaterial3D_5lfti")
+use_collision = true
+size = Vector3(333.2342, 368.56873, 1)
+material = SubResource("StandardMaterial3D_18wdu")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="сама ссена/кубы и блоки/стнеы" unique_id=1526954496]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.76943, 6.64016, 40.73519)
+size = Vector3(1.8350067, 0.9881592, 129.63112)
+material = SubResource("StandardMaterial3D_nx0of")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="сама ссена/кубы и блоки/стнеы" unique_id=2083447398]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.748192, 9.286558, -24.168129)
+size = Vector3(2.0126953, 4.5235596, 0.51953125)
+material = SubResource("StandardMaterial3D_w76ko")
+
+[node name="lampaaa" type="Node3D" parent="сама ссена/кубы и блоки/стнеы" unique_id=406196534]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.825516, 12.646918, -23.199863)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa" unique_id=1182815387]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.3918457, -0.16319698)
+radius = 0.064453125
+height = 0.96118164
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa" unique_id=65587691]
+transform = Transform3D(1, 0, 0, 0, -1, 1.1920929e-07, 0, -1.1920929e-07, -1, 0, -0.53704953, 0.26667383)
+radius = 0.064453125
+height = 0.3482666
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa" unique_id=1583031052]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, 0, -0.8554374, 0.26521403)
+height = 0.90234375
+sides = 4
+cone = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa" unique_id=537965918]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -1.0015604, 0.25240517)
+light_energy = 16.0
+spot_range = 57.585083
+spot_angle = 54.956963
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="сама ссена/кубы и блоки/стнеы" unique_id=256307729]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1512489, 45.151054, -24)
+material_override = SubResource("StandardMaterial3D_0ibrq")
+size = Vector3(67, 67.403, 1)
+material = SubResource("StandardMaterial3D_5mwfd")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="сама ссена/кубы и блоки/стнеы" unique_id=78881801]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.098824, 25.018501, -24.22074)
+size = Vector3(2.1133423, 3.279541, 1)
+material = SubResource("StandardMaterial3D_li4ja")
+
+[node name="lampaaa2" type="Node3D" parent="сама ссена/кубы и блоки/стнеы" unique_id=973021127]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.205425, 27.903194, -23.199863)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa2" unique_id=1021092315]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.3918457, -0.16319698)
+radius = 0.064453125
+height = 0.96118164
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa2" unique_id=1141898534]
+transform = Transform3D(1, 0, 0, 0, -1, 1.1920929e-07, 0, -1.1920929e-07, -1, 0, -0.53704953, 0.26667383)
+radius = 0.064453125
+height = 0.3482666
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa2" unique_id=1610414030]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, 0, -0.8554374, 0.26521403)
+height = 0.90234375
+sides = 4
+cone = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa2" unique_id=1821884815]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -1.0015604, 0.25240517)
+light_energy = 16.0
+spot_range = 57.585083
+spot_angle = 54.956963
+
+[node name="lampaaa3" type="Node3D" parent="сама ссена/кубы и блоки/стнеы" unique_id=1354967623]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.651657, -12.642719, -23.199863)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa3" unique_id=290657225]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.3918457, -0.16319698)
+radius = 0.064453125
+height = 0.96118164
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa3" unique_id=127871240]
+transform = Transform3D(1, 0, 0, 0, -1, 1.1920929e-07, 0, -1.1920929e-07, -1, 0, -0.53704953, 0.26667383)
+radius = 0.064453125
+height = 0.3482666
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa3" unique_id=1159520696]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, 0, -0.8554374, 0.26521403)
+height = 0.90234375
+sides = 4
+cone = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="сама ссена/кубы и блоки/стнеы/lampaaa3" unique_id=1915627749]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -1.0015604, 0.25240517)
+light_energy = 16.0
+spot_range = 57.585083
+spot_angle = 54.956963
+
+[node name="CSGCombiner3D2" type="CSGCombiner3D" parent="сама ссена/кубы и блоки" unique_id=1969958112]
+
+[node name="dhtvtyyj" type="CSGBox3D" parent="сама ссена/кубы и блоки/CSGCombiner3D2" unique_id=393769902]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.144188, 22.98389, 40.73519)
+size = Vector3(1.8350067, 0.9881592, 129.63112)
+material = SubResource("StandardMaterial3D_nx0of")
+
+[node name="lampaaa3" type="Node3D" parent="сама ссена/кубы и блоки/CSGCombiner3D2" unique_id=111969797]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -46.651657, -42.233875, 85.730675)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/CSGCombiner3D2/lampaaa3" unique_id=1589531721]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.3918457, -0.16319698)
+radius = 0.064453125
+height = 0.96118164
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/CSGCombiner3D2/lampaaa3" unique_id=1170303519]
+transform = Transform3D(1, 0, 0, 0, -1, 1.1920929e-07, 0, -1.1920929e-07, -1, 0, -0.53704953, 0.26667383)
+radius = 0.064453125
+height = 0.3482666
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/кубы и блоки/CSGCombiner3D2/lampaaa3" unique_id=272435732]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, 0, -0.8554374, 0.26521403)
+height = 0.90234375
+sides = 4
+cone = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="сама ссена/кубы и блоки/CSGCombiner3D2/lampaaa3" unique_id=1143422442]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -1.0015604, 0.25240517)
+light_energy = 16.0
+spot_range = 57.585083
+spot_angle = 54.956963
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/кубы и блоки" unique_id=1127436260]
+transform = Transform3D(1, 0, 0, 0, 0.9659258, -0.25881904, 0, 0.25881904, 0.9659258, -46.604874, -59.554966, 130.94664)
+size = Vector3(1.8350067, 0.9881592, 321.03528)
+material = SubResource("StandardMaterial3D_nx0of")
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="сама ссена/кубы и блоки" unique_id=497139504]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.701332, -45.39056, 87.34471)
+operation = 2
+size = Vector3(2.183838, 3.5913696, 1.9249268)
+material = SubResource("StandardMaterial3D_xqued")
+
+[node name="освещение" type="Node3D" parent="сама ссена" unique_id=884739295]
+
+[node name="lmpa" type="Node3D" parent="сама ссена/освещение" unique_id=497659498]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.236, -55)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="сама ссена/освещение/lmpa" unique_id=350615507]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="сама ссена/освещение/lmpa/CSGSphere3D" unique_id=778287186]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.31205034, 0)
+light_energy = 5.0
+omni_range = 7.0
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/освещение/lmpa" unique_id=546827444]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0.2611084, 0, 0)
+radius = 0.065
+height = 9.558838
+
+[node name="lmpa3" type="Node3D" parent="сама ссена/освещение" unique_id=1476643921]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.236, -45)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="сама ссена/освещение/lmpa3" unique_id=780061664]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="сама ссена/освещение/lmpa3/CSGSphere3D" unique_id=1125160070]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.29078388, 0)
+light_energy = 5.0
+omni_range = 7.0
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/освещение/lmpa3" unique_id=234644152]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0.2611084, 0, 0)
+radius = 0.065
+height = 9.558838
+
+[node name="lmpa5" type="Node3D" parent="сама ссена/освещение" unique_id=1761055363]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.236, -35)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="сама ссена/освещение/lmpa5" unique_id=1663453055]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="сама ссена/освещение/lmpa5/CSGSphere3D" unique_id=1851759680]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.36904192, 0)
+light_energy = 5.0
+omni_range = 7.0
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/освещение/lmpa5" unique_id=337302353]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0.2611084, 0, 0)
+radius = 0.065
+height = 9.558838
+
+[node name="lmpa6" type="Node3D" parent="сама ссена/освещение" unique_id=571295829]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.236, -25.206278)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="сама ссена/освещение/lmpa6" unique_id=1478715493]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="сама ссена/освещение/lmpa6/CSGSphere3D" unique_id=772977471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4062829, 0)
+light_energy = 5.0
+omni_range = 7.0
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/освещение/lmpa6" unique_id=554302444]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0.2611084, 0, 0)
+radius = 0.065
+height = 9.558838
+
+[node name="lmpa8" type="Node3D" parent="сама ссена/освещение" unique_id=1721003703]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.236, -65)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="сама ссена/освещение/lmpa8" unique_id=1226789748]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="сама ссена/освещение/lmpa8/CSGSphere3D" unique_id=1494775563]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3292246, 0)
+light_energy = 5.0
+omni_range = 7.0
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/освещение/lmpa8" unique_id=1030398071]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0.2611084, 0, 0)
+radius = 0.065
+height = 9.558838
+
+[node name="ograds" type="Node3D" parent="сама ссена" unique_id=1703549662]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.0682783)
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds" unique_id=918137916]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4574064, 0.5, 13.758)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda" unique_id=968437169]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda" unique_id=770515899]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda" unique_id=951282649]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda" unique_id=221546117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda" unique_id=289973390]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda" unique_id=1524439980]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda" unique_id=595007073]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="сама ссена/ograds/ograda" unique_id=1441826201]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda2" unique_id=1318027054]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda2" unique_id=2030983584]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda2" unique_id=513719279]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda/ograda2" unique_id=987152090]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda2/ograda" unique_id=562052590]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda2/ograda" unique_id=1546705893]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda2/ograda" unique_id=1815802305]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="сама ссена/ograds/ograda" unique_id=81104086]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.197578)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3" unique_id=1673084488]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3" unique_id=1067484612]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3" unique_id=1159580381]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda/ograda3" unique_id=1021556496]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3/ograda" unique_id=393719964]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3/ograda" unique_id=408184780]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3/ograda" unique_id=2066356737]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="сама ссена/ograds/ograda/ograda3" unique_id=460536436]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3/ograda2" unique_id=906812491]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3/ograda2" unique_id=1122518588]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3/ograda2" unique_id=2062271615]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda/ograda3/ograda2" unique_id=924243492]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3/ograda2/ograda" unique_id=69849030]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3/ograda2/ograda" unique_id=1642241546]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda3/ograda2/ograda" unique_id=1869980968]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda4" type="Node3D" parent="сама ссена/ograds/ograda" unique_id=2085438958]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -20.366926)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4" unique_id=963417695]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4" unique_id=1972507133]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4" unique_id=1392986699]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda/ograda4" unique_id=182796659]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda" unique_id=1914796909]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda" unique_id=1389576052]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda" unique_id=1930244468]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="сама ссена/ograds/ograda/ograda4" unique_id=1727292232]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda2" unique_id=608074798]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda2" unique_id=331272064]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda2" unique_id=4804803]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda/ograda4/ograda2" unique_id=2094339556]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda2/ograda" unique_id=1393669635]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda2/ograda" unique_id=937020951]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda2/ograda" unique_id=186331429]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="сама ссена/ograds/ograda/ograda4" unique_id=70415837]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.197578)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda3" unique_id=1067521774]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda3" unique_id=744678732]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda3" unique_id=1764761715]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda/ograda4/ograda3" unique_id=1616501939]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda3/ograda" unique_id=88734843]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda3/ograda" unique_id=2021236636]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda3/ograda" unique_id=1622954516]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="сама ссена/ograds/ograda/ograda4/ograda3" unique_id=1319077660]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda3/ograda2" unique_id=2129733443]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda3/ograda2" unique_id=1990442406]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.8171673)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda/ograda4/ograda3/ograda2" unique_id=764243700]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -0.90371704)
+use_collision = true
+radius = 0.045
+height = 1.8648643
+
+[node name="ograda2" type="Node3D" parent="сама ссена/ograds" unique_id=1967496094]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4433626, 0.5, 13.758)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2" unique_id=381789219]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2" unique_id=1798978977]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2" unique_id=1573255740]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda2" unique_id=479396933]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda" unique_id=2070862068]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda" unique_id=1646683419]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda" unique_id=754744140]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="сама ссена/ograds/ograda2" unique_id=716580830]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda2" unique_id=2027360415]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda2" unique_id=1075422103]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda2" unique_id=41364095]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda2/ograda2" unique_id=922537874]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda2/ograda" unique_id=1200181046]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda2/ograda" unique_id=983637834]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda2/ograda" unique_id=965168531]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="сама ссена/ograds/ograda2" unique_id=294688021]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.197578)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3" unique_id=304882807]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3" unique_id=258069359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3" unique_id=2119451556]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda2/ograda3" unique_id=119934848]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3/ograda" unique_id=2024681879]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3/ograda" unique_id=393909612]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3/ograda" unique_id=1994090586]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="сама ссена/ograds/ograda2/ograda3" unique_id=1639982732]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3/ograda2" unique_id=1918882940]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3/ograda2" unique_id=1917855060]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3/ograda2" unique_id=1069334168]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda2/ograda3/ograda2" unique_id=1024965998]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3/ograda2/ograda" unique_id=68242191]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3/ograda2/ograda" unique_id=305525484]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda3/ograda2/ograda" unique_id=158997943]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda4" type="Node3D" parent="сама ссена/ograds/ograda2" unique_id=437996031]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -20.366926)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4" unique_id=1708228169]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4" unique_id=1118415079]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4" unique_id=1060168561]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda2/ograda4" unique_id=1865935135]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda" unique_id=863374318]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda" unique_id=156914030]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda" unique_id=1116463695]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="сама ссена/ograds/ograda2/ograda4" unique_id=1373331565]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda2" unique_id=1011769888]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda2" unique_id=2134355240]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda2" unique_id=1195069923]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda2/ograda4/ograda2" unique_id=1503053980]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda2/ograda" unique_id=915331890]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda2/ograda" unique_id=22190056]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda2/ograda" unique_id=1218253301]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="сама ссена/ograds/ograda2/ograda4" unique_id=610639668]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.197578)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3" unique_id=1876252291]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3" unique_id=118098577]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3" unique_id=259795792]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda" type="Node3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3" unique_id=813662574]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5550904)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3/ograda" unique_id=966057234]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3/ograda" unique_id=1597256431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3/ograda" unique_id=1885071792]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3" unique_id=1523703945]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.083575)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3/ograda2" unique_id=86947383]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3/ograda2" unique_id=1911650397]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.9126835)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda2/ograda4/ograda3/ograda2" unique_id=22523468]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -0.9520569)
+use_collision = true
+radius = 0.045
+height = 1.961544
+
+[node name="chytpolomannuyzabor" type="Node3D" parent="сама ссена/ograds" unique_id=954293033]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.455, 0.5, 11.167)
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/chytpolomannuyzabor" unique_id=147209141]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.100021)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/chytpolomannuyzabor" unique_id=80038478]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.593809)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="сама ссена/ograds/chytpolomannuyzabor" unique_id=644709437]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, 3.8484192)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="сама ссена/ograds/chytpolomannuyzabor" unique_id=1799563601]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.119774)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D8" type="CSGCylinder3D" parent="сама ссена/ograds/chytpolomannuyzabor" unique_id=2101426346]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, 5.2624187)
+use_collision = true
+radius = 0.047851563
+height = 0.3788433
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="сама ссена/ograds/chytpolomannuyzabor" unique_id=207182084]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.0019497871, 0.7640282, 6.152128)
+radius = 0.029296875
+height = 1.5924072
+
+[node name="CSGCylinder3D10" type="CSGCylinder3D" parent="сама ссена/ograds/chytpolomannuyzabor" unique_id=1881113558]
+transform = Transform3D(1, 0, 0, 0, -0.2588191, -0.96592593, 0, 0.96592593, -0.2588191, 0.003563404, 0.7073541, 7.130377)
+radius = 0.029296875
+height = 0.49632263
+
+[node name="CSGCylinder3D11" type="CSGCylinder3D" parent="сама ссена/ograds/chytpolomannuyzabor" unique_id=824728218]
+transform = Transform3D(1, 0, 0, 0, -0.7071069, -0.70710677, 0, 0.70710677, -0.7071069, 0.003563404, 0.46410418, 7.537117)
+radius = 0.029296875
+height = 0.5258484
+
+[node name="ograda3" type="Node3D" parent="сама ссена/ograds" unique_id=1502079764]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.388, 0.5, -54.147167)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda3" unique_id=1711625996]
+material_override = SubResource("StandardMaterial3D_jtreq")
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda3" unique_id=1490757089]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda3" unique_id=453567654]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+material_override = SubResource("StandardMaterial3D_j8b8d")
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="сама ссена/ograds/ograda3" unique_id=1248863039]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, -2.5253487)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda3/ograda3" unique_id=1074845867]
+material_override = SubResource("StandardMaterial3D_lc52x")
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda3/ograda3" unique_id=1676645944]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+material_override = SubResource("StandardMaterial3D_2dgxd")
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda3/ograda3" unique_id=1715543460]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+material_override = SubResource("StandardMaterial3D_x1mr1")
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda4" type="Node3D" parent="сама ссена/ograds" unique_id=909023097]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4208078, 0.5, -62.043858)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda4" unique_id=498163046]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda4" unique_id=546222947]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda4" unique_id=811410501]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="сама ссена/ograds/ograda4" unique_id=2041505958]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, -2.5253487)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda4/ograda3" unique_id=419072588]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda4/ograda3" unique_id=171831626]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda4/ograda3" unique_id=228100032]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda5" type="Node3D" parent="сама ссена/ograds" unique_id=1440983815]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 3.964749, 0.5, -56.69111)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda5" unique_id=1816708827]
+material_override = SubResource("StandardMaterial3D_8gyya")
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda5" unique_id=964919076]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+material_override = SubResource("StandardMaterial3D_3ek7m")
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda5" unique_id=2083674769]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+material_override = SubResource("StandardMaterial3D_5sl4u")
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="сама ссена/ograds/ograda5" unique_id=1828611108]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, -2.5253487)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda5/ograda3" unique_id=2086988706]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda5/ograda3" unique_id=240397388]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+material_override = SubResource("StandardMaterial3D_sm3u2")
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda5/ograda3" unique_id=1047344008]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+material_override = SubResource("StandardMaterial3D_xf0pi")
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda6" type="Node3D" parent="сама ссена/ograds" unique_id=768783424]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, -3.9319413, 0.5, -59.499916)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda6" unique_id=1853070942]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda6" unique_id=1056135913]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+material_override = SubResource("StandardMaterial3D_w2c5i")
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda6" unique_id=1511239803]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+material_override = SubResource("StandardMaterial3D_312mw")
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda3" type="Node3D" parent="сама ссена/ograds/ograda6" unique_id=2113662058]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, -2.5253487)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda6/ograda3" unique_id=2041828691]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda6/ograda3" unique_id=853889844]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda6/ograda3" unique_id=1176487243]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+material_override = SubResource("StandardMaterial3D_qvxvv")
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda7" type="Node3D" parent="сама ссена/ograds" unique_id=1223814091]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.335, 0.5, -23.79)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda7" unique_id=126413600]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda7" unique_id=1373810168]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda7" unique_id=1259251495]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda8" type="Node3D" parent="сама ссена/ograds" unique_id=727874302]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.8012843, 0.5, -23.79)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda8" unique_id=1709654458]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda8" unique_id=1272571035]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda8" unique_id=1532123681]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda9" type="Node3D" parent="сама ссена/ograds" unique_id=539266153]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -2.2529783, 0.5, -23.79)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda9" unique_id=1256903458]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.76626885)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda9" unique_id=1920073062]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda9" unique_id=1939862292]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -0.9011493)
+use_collision = true
+radius = 0.045
+height = 3.3458214
+
+[node name="ograda10" type="Node3D" parent="сама ссена/ograds" unique_id=1043354855]
+transform = Transform3D(-1, 8.7422784e-08, 0, 8.7422784e-08, 1, 8.742278e-08, 7.1054274e-15, 8.742278e-08, -1, 7.4161983, 0.49999976, -23.79)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda10" unique_id=1822072569]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda10" unique_id=946905225]
+transform = Transform3D(1, 6.681498e-22, 0, 6.211762e-22, 1, 0, 0, 0, 1, 0, -4.4703484e-07, 2.5616512)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda10" unique_id=1312285771]
+transform = Transform3D(1, 0, -3.340749e-22, 6.211762e-22, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.74999976, 1.2411938)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda11" type="Node3D" parent="сама ссена/ograds" unique_id=209913270]
+transform = Transform3D(4.371139e-08, 8.7422784e-08, -1, -8.7422784e-08, 1, 8.7422784e-08, 1, 8.742277e-08, 4.3711395e-08, 4.8824825, 0.5, -23.79)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda11" unique_id=1707959834]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda11" unique_id=1935302333]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda11" unique_id=1959576773]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda12" type="Node3D" parent="сама ссена/ograds" unique_id=533284824]
+transform = Transform3D(4.371139e-08, 8.7422784e-08, -1, -8.7422784e-08, 1, 8.7422784e-08, 1, 8.742277e-08, 4.3711395e-08, 2.3341765, 0.50000024, -23.79)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda12" unique_id=1590979915]
+transform = Transform3D(1, 0, 0, 0, 1, -3.284056e-15, 0, -3.284056e-15, 1, 0, 0, 0.8951608)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda12" unique_id=2083448887]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda12" unique_id=1337897557]
+transform = Transform3D(1, 0, 1.6342483e-13, 0, -4.371147e-08, -1, 0, 1, -4.3711307e-08, 0, 0.7500001, -0.838923)
+use_collision = true
+radius = 0.045
+height = 3.470274
+
+[node name="ograda13" type="Node3D" parent="сама ссена/ograds" unique_id=2058063927]
+transform = Transform3D(0.9659258, 0.25, -0.0669873, -0.25881907, 0.9330128, -0.25000003, 0, 0.25881907, 0.96592593, -1.2786198, 0.16702461, 23.64936)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograds/ograda13" unique_id=2023719185]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograds/ograda13" unique_id=1540083366]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5272825)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograds/ograda13" unique_id=1553408201]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="komplect armatur" type="Node3D" parent="сама ссена" unique_id=1534028476]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.339611, 0, 16.918089)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/komplect armatur" unique_id=1570146178]
+transform = Transform3D(1, 0, 0, 0, -2.9802322e-08, -1, 0, 1, -2.9802322e-08, -3.0828547, 0.12215893, 4.904972)
+material_override = SubResource("StandardMaterial3D_4olqe")
+use_collision = true
+radius = 0.029296875
+height = 4.452881
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/komplect armatur" unique_id=1063244041]
+transform = Transform3D(0.8660254, -0.13109462, -0.48250818, -0.49999994, -0.22706252, -0.8357287, -1.4886332e-09, 0.96501654, -0.2621892, -2.7938707, -0.2048666, 6.1226387)
+material_override = SubResource("StandardMaterial3D_03120")
+use_collision = true
+radius = 0.029
+height = 2.798767
+sides = 9
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="сама ссена/komplect armatur" unique_id=1871387994]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -2.0869584, 0.20135026, 3.4845848)
+material_override = SubResource("StandardMaterial3D_56ibc")
+use_collision = true
+radius = 0.029296875
+height = 2.8968048
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/komplect armatur" unique_id=1328920557]
+transform = Transform3D(0.86602545, -2.1855694e-08, -0.5, -0.5, -3.7855173e-08, -0.86602545, 0, 1, -4.371139e-08, -2.6116216, 0.107909754, 3.8410492)
+material_override = SubResource("StandardMaterial3D_pgq4v")
+use_collision = true
+radius = 0.029296875
+height = 1.911377
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="сама ссена/komplect armatur" unique_id=545047911]
+transform = Transform3D(1, 0, 0, 0, -0.2588191, -0.96592593, 0, 0.96592593, -0.2588191, -2.0853448, 0.14467719, 5.1165333)
+material_override = SubResource("StandardMaterial3D_iwoyl")
+use_collision = true
+radius = 0.029296875
+height = 0.49632263
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="сама ссена/komplect armatur" unique_id=1937232867]
+transform = Transform3D(1, 0, 0, 0, -0.7071069, -0.70710677, 0, 0.70710677, -0.7071069, -2.0853448, -0.09857273, 5.5232735)
+material_override = SubResource("StandardMaterial3D_ocswj")
+use_collision = true
+radius = 0.029296875
+height = 0.5258484
+
+[node name="CSGCylinder3D7" type="CSGCylinder3D" parent="сама ссена/komplect armatur" unique_id=1042509048]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -3.5050652, 0.12215893, 4.904972)
+material_override = SubResource("StandardMaterial3D_j64eu")
+use_collision = true
+radius = 0.029296875
+height = 4.452881
+
+[node name="CSGCylinder3D8" type="CSGCylinder3D" parent="сама ссена/komplect armatur" unique_id=1679412686]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -1.4436505, 0.20135027, 3.123909)
+material_override = SubResource("StandardMaterial3D_hev8t")
+use_collision = true
+radius = 0.029296875
+height = 2.1754532
+
+[node name="CSGCylinder3D9" type="CSGCylinder3D" parent="сама ссена/komplect armatur" unique_id=1054522262]
+transform = Transform3D(1, 0, 0, 0, -0.2588191, -0.96592593, 0, 0.96592593, -0.2588191, -1.4420369, 0.14467719, 4.452326)
+material_override = SubResource("StandardMaterial3D_1g5l6")
+use_collision = true
+radius = 0.029296875
+height = 0.49632263
+
+[node name="CSGCylinder3D10" type="CSGCylinder3D" parent="сама ссена/komplect armatur" unique_id=1677389803]
+transform = Transform3D(1, 0, 0, 0, -0.7071069, -0.70710677, 0, 0.70710677, -0.7071069, -1.4420369, -0.09857273, 4.8591976)
+material_override = SubResource("StandardMaterial3D_x351s")
+use_collision = true
+radius = 0.029296875
+height = 0.5258484
+
+[node name="rhfuuu" type="CSGCombiner3D" parent="сама ссена" unique_id=1624956621]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.644578, 0.37423182, -55)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="сама ссена/rhfuuu" unique_id=1402805186]
+transform = Transform3D(0.9659258, -0.25881904, 0, 0.25881904, 0.9659258, 0, 0, 0, 1, -6.610691, 21.451208, 7.1989746)
+size = Vector3(1, 55.552734, 45.93556)
+material = SubResource("StandardMaterial3D_uwngr")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/rhfuuu/CSGBox3D" unique_id=488763382]
+transform = Transform3D(1.0000012, 0, 0, 0, 1.0000012, 0, 0, 0, 1, 0.089785576, -20.379726, -7.215172)
+operation = 2
+size = Vector3(2, 4.562, 2)
+material = SubResource("StandardMaterial3D_n4v8f")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/rhfuuu" unique_id=761735858]
+transform = Transform3D(0.9659258, -0.25881904, 0, 0.25881904, 0.9659258, 0, 0, 0, 1, -13.307965, 21.466381, 7.215172)
+size = Vector3(1, 55.552734, 45.93556)
+material = SubResource("StandardMaterial3D_uwngr")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="сама ссена/rhfuuu/CSGBox3D2" unique_id=2087156682]
+transform = Transform3D(1.0000004, 0, 0, 0, 1.0000004, 0, 0, 0, 1, 0.08978605, -20.379723, -7.215172)
+operation = 2
+size = Vector3(2, 4.562, 2)
+material = SubResource("StandardMaterial3D_3y525")
+
+[node name="lampaaa" type="Node3D" parent="сама ссена/rhfuuu/CSGBox3D2" unique_id=712104658]
+transform = Transform3D(-1.2444863e-08, 0.25881934, 0.96592665, 6.5041895e-08, 0.96592706, -0.2588193, -1.0000007, -2.9802322e-08, -4.2221963e-08, 0.9864378, -16.625956, -7.246914)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/rhfuuu/CSGBox3D2/lampaaa" unique_id=1501691882]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.3918457, -0.16319698)
+radius = 0.064453125
+height = 0.96118164
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/rhfuuu/CSGBox3D2/lampaaa" unique_id=1320851523]
+transform = Transform3D(1, 0, 0, 0, -1, 1.1920929e-07, 0, -1.1920929e-07, -1, 0, -0.53704953, 0.26667383)
+radius = 0.064453125
+height = 0.3482666
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/rhfuuu/CSGBox3D2/lampaaa" unique_id=388795153]
+transform = Transform3D(0.7071067, 1.1943332e-08, -0.7071068, 0.18301266, 0.9659258, 0.18301272, 0.6830127, -0.25881904, 0.6830127, 0, -0.8554363, 0.35728455)
+height = 0.90234375
+sides = 4
+cone = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="сама ссена/rhfuuu/CSGBox3D2/lampaaa" unique_id=137908969]
+transform = Transform3D(0.9999993, 1.964177e-08, -7.746353e-08, -9.912345e-09, -0.2588189, 0.9659247, 9.152073e-09, -0.9659251, -0.25881872, 0, -1.0015597, 0.25240517)
+spot_range = 5.0738263
+spot_angle = 36.695618
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/rhfuuu" unique_id=1499450193]
+transform = Transform3D(-0.2588191, 0.9659258, 0, -0.9659258, -0.2588191, 0, 0, 0, 1, -8.090399, 4.3125324, 6.7163963)
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/rhfuuu" unique_id=437714]
+transform = Transform3D(-0.2588191, 0.9659258, 0, -0.9659258, -0.2588191, 0, 0, 0, 1, -8.090399, 4.3125324, 5.2372665)
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/rhfuuu" unique_id=1623999561]
+transform = Transform3D(-0.2588191, 0.9659258, 0, -0.9659258, -0.2588191, 0, 0, 0, 1, -8.090399, 4.3125324, 8.275581)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="сама ссена/rhfuuu" unique_id=723914590]
+transform = Transform3D(0.96592593, -0.25881907, 0, 0.25881907, 0.96592593, 0, 0, 0, 1, -13.338649, 34.485626, 30.49581)
+size = Vector3(6.8581543, 88.65396, 0.54589844)
+material = SubResource("StandardMaterial3D_8ajfr")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="сама ссена/rhfuuu" unique_id=1581084634]
+transform = Transform3D(0.96592593, -0.25881907, 0, 0.25881907, 0.96592593, 0, 0, 0, 1, -13.846398, 36.380566, -15.461716)
+size = Vector3(6.8581543, 84.730385, 0.54589844)
+material = SubResource("StandardMaterial3D_j2iek")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="сама ссена/rhfuuu" unique_id=887772672]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.76123047, 5.8449335, 12.652786)
+size = Vector3(2.522461, 2.2596436, 35.437706)
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="сама ссена/rhfuuu" unique_id=1951010512]
+transform = Transform3D(-0.2588191, 0.9659258, 0, -0.9659258, -0.2588191, 0, 0, 0, 1, -4.7863464, 1.5475792, 12.282318)
+height = 7.615967
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="сама ссена/rhfuuu" unique_id=1762637402]
+transform = Transform3D(-0.2588191, 0.9659258, 0, -0.9659258, -0.2588191, 0, 0, 0, 1, -4.7958965, 1.5501384, 10.803188)
+height = 6.8828125
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="сама ссена/rhfuuu" unique_id=1825740190]
+transform = Transform3D(-0.2588191, 0.9659258, 0, -0.9659258, -0.2588191, 0, 0, 0, 1, -4.974414, 1.5979718, 13.841503)
+height = 7.2192383
+
+[node name="lampaaa" type="Node3D" parent="сама ссена/rhfuuu" unique_id=1941497709]
+transform = Transform3D(-8.925724e-08, -0.5000006, -0.86602604, 4.3419902e-08, 0.8660264, -0.5000004, 1.0000007, 7.175622e-09, -4.222202e-08, -9.895403, 5.202578, 0.021141052)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/rhfuuu/lampaaa" unique_id=2043861368]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.3918457, -0.16319698)
+radius = 0.064453125
+height = 0.96118164
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/rhfuuu/lampaaa" unique_id=907916195]
+transform = Transform3D(1, 0, 0, 0, -1, 1.1920929e-07, 0, -1.1920929e-07, -1, 0, -0.53704953, 0.26667383)
+radius = 0.064453125
+height = 0.3482666
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/rhfuuu/lampaaa" unique_id=928746147]
+transform = Transform3D(0.7071067, 1.1943332e-08, -0.7071068, 0.18301266, 0.9659258, 0.18301272, 0.6830127, -0.25881904, 0.6830127, 0, -0.8554363, 0.35728455)
+height = 0.90234375
+sides = 4
+cone = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="сама ссена/rhfuuu/lampaaa" unique_id=720384807]
+transform = Transform3D(0.9999993, 1.964177e-08, -7.746353e-08, -9.912345e-09, -0.2588189, 0.9659247, 9.152073e-09, -0.9659251, -0.25881872, 0, -1.0015597, 0.25240517)
+spot_range = 5.0738263
+spot_angle = 36.695618
+
+[node name="lmpa" type="Node3D" parent="сама ссена/rhfuuu" unique_id=1995234668]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.856587, 1.7828939, -2.599083)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="сама ссена/rhfuuu/lmpa" unique_id=248379781]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="сама ссена/rhfuuu/lmpa/CSGSphere3D" unique_id=1179241094]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/rhfuuu/lmpa" unique_id=1406280984]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -0.07378006, 0, 0)
+radius = 0.065
+height = 6.3543186
+
+[node name="ograda13" type="Node3D" parent="сама ссена" unique_id=1341520303]
+transform = Transform3D(0.9659258, 0.25, -0.0669873, -0.25881907, 0.9330128, -0.25000003, 0, 0.25881907, 0.96592593, 1.4279335, -0.22107303, 26.617779)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/ograda13" unique_id=1964774297]
+transform = Transform3D(1, -1.4901161e-08, 0, 1.4901161e-08, 1, 0, 0, 0, 1.0000001, 0.038333774, -0.13818884, 0.03702736)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/ograda13" unique_id=101481431]
+transform = Transform3D(1, -1.4901161e-08, 0, 1.4901161e-08, 1, 0, 0, 0, 1.0000001, 0.038333774, -0.13818932, -2.4902573)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/ograda13" unique_id=162086459]
+transform = Transform3D(1, 7.450581e-09, 1.4901161e-08, 1.4901161e-08, -2.9802322e-08, -1, 0, 1.0000001, -2.9802322e-08, 0.038333774, 0.61181164, -1.2356453)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="сама ссена" unique_id=2030081600]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -170.67, -105.443, 86.51757)
+material_override = SubResource("StandardMaterial3D_oxmnm")
+use_collision = true
+size = Vector3(333.2342, 368.56873, 1)
+material = SubResource("StandardMaterial3D_ccj40")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="сама ссена/CSGBox3D3" unique_id=2095684953]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 141.89857, 114.60095, -0.49237442)
+operation = 2
+size = Vector3(1.8497344, 4.0390625, 2.2184448)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="сама ссена/CSGBox3D3" unique_id=484477246]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 124.06472, 59.94844, 0.34407043)
+operation = 2
+size = Vector3(1.8168945, 2.9539795, 1.9249268)
+material = SubResource("StandardMaterial3D_xqued")
+
+[node name="lampaaa" type="Node3D" parent="сама ссена" unique_id=764705472]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -28.825516, 12.646918, 85.6616)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="сама ссена/lampaaa" unique_id=1378700086]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.3918457, -0.16319698)
+radius = 0.064453125
+height = 0.96118164
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="сама ссена/lampaaa" unique_id=364033457]
+transform = Transform3D(1, 0, 0, 0, -1, 1.1920929e-07, 0, -1.1920929e-07, -1, 0, -0.53704953, 0.26667383)
+radius = 0.064453125
+height = 0.3482666
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="сама ссена/lampaaa" unique_id=1106358971]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, 0, -0.8554374, 0.26521403)
+height = 0.90234375
+sides = 4
+cone = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="сама ссена/lampaaa" unique_id=1051879277]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -1.0015604, 0.25240517)
+light_energy = 16.0
+spot_range = 57.585083
+spot_angle = 54.956963
+
+[node name="player" parent="." unique_id=327263614 instance=ExtResource("3_8ajfr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9585335, 16.738588)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1527236359]
+environment = SubResource("Environment_wtdyi")
+
+[node name="Node3D" type="Node3D" parent="." unique_id=1854821177]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.183266, 0, -53.84943)
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="Node3D" unique_id=1991421138]
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Node3D/CSGCombiner3D" unique_id=2094802743]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.738525, 7.965028, 4.904167)
+size = Vector3(10, 11.000488, 5.253784)
+material = SubResource("StandardMaterial3D_2sb0n")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Node3D/CSGCombiner3D/CSGBox3D" unique_id=1983101990]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1490784, -2.5162568, -0.03636551)
+operation = 2
+size = Vector3(7.7911377, 2.9753873, 2.956)
+material = SubResource("StandardMaterial3D_e50gg")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Node3D/CSGCombiner3D/CSGBox3D" unique_id=1133634183]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.8763123, -3.3045483, 2.449772)
+operation = 2
+size = Vector3(2.1543121, 3.2049446, 2.1037598)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="Node3D/CSGCombiner3D/CSGBox3D" unique_id=793113606]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5332031, -0.47100735, -1.3056755)
+operation = 2
+size = Vector3(2.4399414, 3.3537292, 3.2407837)
+material = SubResource("StandardMaterial3D_bpdjt")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="Node3D/CSGCombiner3D/CSGBox3D" unique_id=707033543]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5246811, 2.7432594, 2.1726608)
+operation = 2
+size = Vector3(11.391739, 0.76452637, 5.241455)
+material = SubResource("StandardMaterial3D_c05vm")
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/CSGBox3D" unique_id=202141999]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9002914, 5.4023037, 0.09521866)
+radius = 0.9946289
+height = 1.6218262
+material = SubResource("StandardMaterial3D_xkwqj")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="Node3D/CSGCombiner3D/CSGBox3D" unique_id=789704850]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.029472351, 6.508029, 0.083869934)
+size = Vector3(9.909927, 1, 5.095627)
+material = SubResource("StandardMaterial3D_3afhu")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Node3D/CSGCombiner3D" unique_id=581654502]
+transform = Transform3D(1, 0, 0, 0, 0.8660254, -0.5, 0, 0.5, 0.8660254, -21.858643, 1.9465606, 8.750515)
+size = Vector3(2.090149, 1, 6.305908)
+material = SubResource("StandardMaterial3D_q2042")
+
+[node name="komplectarmatur" type="Node3D" parent="Node3D/CSGCombiner3D" unique_id=1650177701]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -19.279259, 10.979722, 6.7986298)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur" unique_id=1992277047]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15592957, -0.25073242, 0)
+radius = 0.029296875
+height = 2.5014648
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur" unique_id=990238141]
+transform = Transform3D(1, 0, 0, 0, 0.9650165, -0.26218918, 0, 0.26218918, 0.9650165, 0.93652344, 0.69396275, 0.078932226)
+radius = 0.029
+height = 0.63952637
+sides = 9
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur" unique_id=14040303]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8037453, -0.6600914, 0)
+radius = 0.029296875
+height = 1.5924072
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur" unique_id=600221641]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9379673, -0.54577637, 0)
+radius = 0.029296875
+height = 1.911377
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur" unique_id=284927207]
+transform = Transform3D(1, 0, 0, 0, 0.9659258, -0.25881904, 0, 0.25881904, 0.9659258, 1.8053589, 0.27298686, 0.056673806)
+radius = 0.029296875
+height = 0.49632263
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur" unique_id=1950694234]
+transform = Transform3D(1, 0, 0, 0, 0.7071068, -0.7071068, 0, 0.7071068, 0.7071068, 1.8053589, 0.6797272, 0.29992366)
+radius = 0.029296875
+height = 0.5258484
+
+[node name="CSGCylinder3D7" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur" unique_id=1097073264]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5532341, -0.25073242, 0)
+radius = 0.029296875
+height = 2.5014648
+
+[node name="komplectarmatur2" type="Node3D" parent="Node3D/CSGCombiner3D" unique_id=1328395900]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -18.843033, 13.640828, 4.4334908)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur2" unique_id=646176724]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15592957, -0.25073242, 0)
+radius = 0.029296875
+height = 2.5014648
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur2" unique_id=1919665255]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8037453, -0.32528305, 0)
+radius = 0.029296875
+height = 2.262024
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur2" unique_id=2058204095]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9379673, -0.54577637, 0)
+radius = 0.029296875
+height = 1.911377
+
+[node name="CSGCylinder3D7" type="CSGCylinder3D" parent="Node3D/CSGCombiner3D/komplectarmatur2" unique_id=1736604367]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5532341, -0.25073242, 0)
+radius = 0.029296875
+height = 2.5014648
+
+[node name="Node3D" type="Node3D" parent="Node3D" unique_id=999108899]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Node3D/Node3D" unique_id=1799697287]
+transform = Transform3D(0.9659258, 0.25881904, 0, -0.25881904, 0.9659258, 0, 0, 0, 1, -13.223791, 2.6473632, -1.1529999)
+material_override = SubResource("StandardMaterial3D_25g0w")
+use_collision = true
+size = Vector3(21.054932, 1, 5)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Node3D/Node3D" unique_id=2128755412]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7402344, 1.868763)
+material_override = SubResource("StandardMaterial3D_r076x")
+use_collision = true
+size = Vector3(1, 4.4804688, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="Node3D/Node3D" unique_id=1181011129]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.898218, 1.7402344, 1.868763)
+material_override = SubResource("StandardMaterial3D_lphq0")
+use_collision = true
+size = Vector3(1, 4.4804688, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="Node3D/Node3D" unique_id=1317011347]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.921623, 1.2012329, 1.868763)
+use_collision = true
+size = Vector3(1, 3.4024658, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="Node3D/Node3D" unique_id=459655982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7402344, -4.151001)
+material_override = SubResource("StandardMaterial3D_rx7xk")
+use_collision = true
+size = Vector3(1, 4.4804688, 1)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="Node3D/Node3D" unique_id=1096107821]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.898218, 1.7402344, -4.151001)
+material_override = SubResource("StandardMaterial3D_xhh5v")
+use_collision = true
+size = Vector3(1, 4.4804688, 1)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="Node3D/Node3D" unique_id=867940986]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.921623, 1.1919556, -4.151001)
+use_collision = true
+size = Vector3(1, 3.3839111, 1)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="Node3D/Node3D" unique_id=1586768758]
+transform = Transform3D(0.258819, -0.9659258, 0, 0.9659258, 0.258819, 0, 0, 0, 1, -18.726295, 4.539708, 1.868763)
+use_collision = true
+size = Vector3(1.7636719, 9.449982, 1)
+material = SubResource("StandardMaterial3D_8f4n4")
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="Node3D/Node3D" unique_id=463203390]
+transform = Transform3D(0.258819, -0.9659258, 0, 0.9659258, 0.258819, 0, 0, 0, 1, -18.726295, 4.539708, -4.109314)
+use_collision = true
+size = Vector3(1.7636719, 9.449982, 1)
+material = SubResource("StandardMaterial3D_axod6")
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="Node3D/Node3D" unique_id=1950867348]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -7.379318, 3.2442214, 4.94096)
+material_override = SubResource("StandardMaterial3D_yamtw")
+use_collision = true
+size = Vector3(1.4451904, 23.034027, 5.152191)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="Node3D/Node3D" unique_id=309605704]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -10.198837, 3.2442212, -7.1283264)
+material_override = SubResource("StandardMaterial3D_vio1a")
+use_collision = true
+size = Vector3(1.4451904, 28.673065, 5.152191)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="Node3D/Node3D" unique_id=372234604]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8515663, 5.9604645e-08, -1.1533241)
+material_override = SubResource("StandardMaterial3D_35tc3")
+use_collision = true
+size = Vector3(15, 1, 5)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="Node3D/Node3D" unique_id=94210960]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.152771, 3.4034622, 7.9797134)
+use_collision = true
+size = Vector3(1.7636719, 18.580933, 1)
+material = SubResource("StandardMaterial3D_kqvdy")
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="Node3D/Node3D" unique_id=1777402021]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -7.801422, 3.4034622, -10.121529)
+use_collision = true
+size = Vector3(1.7636719, 23.878235, 1)
+material = SubResource("StandardMaterial3D_oub63")
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="Node3D/Node3D" unique_id=1259582343]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.23137, 5.32361, -0.6722946)
+use_collision = true
+size = Vector3(17.974533, 1, 5.97876)
+material = SubResource("StandardMaterial3D_genqk")
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="Node3D/Node3D" unique_id=884369937]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.39185, 7.732926, -0.68951416)
+material_override = SubResource("StandardMaterial3D_q3vvj")
+use_collision = true
+size = Vector3(13.565674, 5.8153687, 5.946411)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/Node3D/CSGBox3D9" unique_id=32347842]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -2.0004883, -0.50342655, 0)
+operation = 2
+radius = 1.9995117
+height = 17.924805
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="Node3D/Node3D" unique_id=1870868115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.550533, 6.113404, 1.8700867)
+size = Vector3(1, 1.0089111, 1)
+material = SubResource("StandardMaterial3D_h146a")
+
+[node name="CSGBox3D18" type="CSGBox3D" parent="Node3D/Node3D" unique_id=1161781910]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.550533, 6.113404, -4.114357)
+size = Vector3(1, 1.0089111, 1)
+material = SubResource("StandardMaterial3D_h146a")
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="Node3D/Node3D" unique_id=1891824854]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.108334, 6.332425, -4.1437225)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Node3D/Node3D/CSGCombiner3D" unique_id=363365196]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04919815, 3.898655, -2.854248)
+size = Vector3(17.437424, 12.724754, 6.708496)
+material = SubResource("StandardMaterial3D_rk5yp")
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/CSGBox3D" unique_id=2045768762]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 3.2505836, 4.3012543, 1.8846588)
+operation = 2
+radius = 0.98583984
+height = 12.331543
+material = SubResource("StandardMaterial3D_12uh2")
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/CSGBox3D" unique_id=1301518828]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 7.6094017, -5.026437, 0)
+operation = 2
+radius = 2.2490234
+height = 3.5018616
+material = SubResource("StandardMaterial3D_7fsmq")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Node3D/Node3D/CSGCombiner3D" unique_id=462744345]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7428856, 5.789852, -0.72109985)
+operation = 2
+size = Vector3(2.1811523, 2.9887695, 2.6299438)
+material = SubResource("StandardMaterial3D_72oqw")
+
+[node name="ograda" type="Node3D" parent="Node3D/Node3D/CSGCombiner3D" unique_id=120463581]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.297963, 3.0946846)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/ograda" unique_id=480226964]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.33359146)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/ograda" unique_id=93506040]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.0516434)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/ograda" unique_id=745548535]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -1.2726723)
+use_collision = true
+radius = 0.045
+height = 2.6027756
+
+[node name="ograda2" type="Node3D" parent="Node3D/Node3D/CSGCombiner3D" unique_id=405094709]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.297963, 5.6416245)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/ograda2" unique_id=1151711685]
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/ograda2" unique_id=1885204679]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.2143745)
+use_collision = true
+radius = 0.045
+height = 1.6
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/ograda2" unique_id=1849218471]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.75, -0.82351303)
+use_collision = true
+radius = 0.045
+height = 3.5010948
+
+[node name="lampaaa" type="Node3D" parent="Node3D/Node3D/CSGCombiner3D" unique_id=994646946]
+transform = Transform3D(1.0000007, 7.1756205e-09, 1.4894042e-09, 8.223135e-08, 1.0000012, -2.9802322e-08, 1.187766e-08, 8.989373e-16, 1.0000007, -1.8551712, 8.269477, 0.8074875)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/lampaaa" unique_id=1258743602]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.3918457, -0.16319698)
+radius = 0.064453125
+height = 0.96118164
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/lampaaa" unique_id=314020485]
+transform = Transform3D(1, 0, 0, 0, -1, 1.1920929e-07, 0, -1.1920929e-07, -1, 0, -0.53704953, 0.26667383)
+radius = 0.064453125
+height = 0.3482666
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D/lampaaa" unique_id=216656212]
+transform = Transform3D(0.70710677, 4.7677142e-09, -0.70710677, -3.7072873e-08, 1, 4.7139572e-09, 0.7071068, -2.6503272e-16, 0.7071068, 0, -0.8554363, 0.35728455)
+height = 0.90234375
+sides = 4
+cone = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Node3D/Node3D/CSGCombiner3D/lampaaa" unique_id=263443761]
+transform = Transform3D(0.9659251, 3.0810998e-08, -0.2588188, 0.25881884, -5.026879e-08, 0.9659247, 3.3835708e-09, -0.9999993, -2.6728143e-08, 0, -1.1678648, 0.25240707)
+light_energy = 1.89
+spot_range = 5.0738263
+spot_angle = 36.695618
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/Node3D/CSGCombiner3D" unique_id=2009901296]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 3.2505836, 5.766899, -4.0365105)
+operation = 2
+radius = 0.98583984
+height = 12.331543
+material = SubResource("StandardMaterial3D_7fi8h")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node3D/Node3D/CSGCombiner3D" unique_id=36689692]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.1213875, 8.286999, -1.030632)
+light_energy = 2.143
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Node3D/Node3D/CSGCombiner3D" unique_id=57019261]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.1213875, 5.5454617, -4.197647)
+light_energy = 2.143
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node3D/Node3D" unique_id=1737027931]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.474342, 10.550664, 6.122978)
+light_energy = 2.143
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Node3D/Node3D" unique_id=231820982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.240128, 13.698087, 3.6003685)
+light_energy = 2.143
+
+[node name="lmpa5" type="Node3D" parent="Node3D/Node3D" unique_id=1285860010]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5758085, 2.2140481, 1.6053581)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Node3D/Node3D/lmpa5" unique_id=1529009808]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node3D/Node3D/lmpa5/CSGSphere3D" unique_id=220723119]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/Node3D/lmpa5" unique_id=1863396775]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -0.48497105, 0, 0)
+radius = 0.065
+height = 5.531939
+
+[node name="lmpa6" type="Node3D" parent="Node3D/Node3D" unique_id=637516930]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1419983, 2.2140481, -3.7557373)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Node3D/Node3D/lmpa6" unique_id=1917760697]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node3D/Node3D/lmpa6/CSGSphere3D" unique_id=920757027]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/Node3D/lmpa6" unique_id=1238203102]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -0.21045494, -0.05988908, 0)
+radius = 0.065
+height = 6.080968
+
+[node name="CSGCombiner3D2" type="CSGCombiner3D" parent="Node3D" unique_id=664641559]
+use_collision = true
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="Node3D/CSGCombiner3D2" unique_id=1010731950]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.152771, 3.4034622, 1.868763)
+size = Vector3(1.7636719, 18.580933, 1)
+material = SubResource("StandardMaterial3D_fd0sn")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Node3D/CSGCombiner3D2/CSGBox3D8" unique_id=47478469]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.20581126, 7.075529, -2.991455)
+operation = 2
+size = Vector3(1.4116211, 5.918091, 9.882324)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="Node3D/CSGCombiner3D2" unique_id=29566392]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.152771, 3.4034622, -4.1096153)
+material_override = SubResource("StandardMaterial3D_uvypg")
+size = Vector3(1.7636719, 18.580933, 1)
+material = SubResource("StandardMaterial3D_xxnm2")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Node3D/CSGCombiner3D2/CSGBox3D9" unique_id=1113020389]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2058115, 7.075529, 2.8936958)
+operation = 2
+size = Vector3(1.4116211, 5.918091, 9.882324)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Node3D/CSGCombiner3D2" unique_id=2137960112]
+transform = Transform3D(1, 0, 0, 0, 0.8660254, 0.5, 0, -0.5, 0.8660254, -11.672756, 2.4831886, 0.93515396)
+size = Vector3(4.88501, 1, 4.2457275)
+material = SubResource("StandardMaterial3D_ol66e")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Node3D/CSGCombiner3D2" unique_id=1952616500]
+transform = Transform3D(1, 0, 0, 0, 0.8660254, -0.5, 0, 0.5, 0.8660254, -11.672756, 2.4737217, -2.9639282)
+size = Vector3(4.88501, 1, 4.2457275)
+material = SubResource("StandardMaterial3D_3qa8f")
+
+[node name="lmpa" type="Node3D" parent="Node3D" unique_id=997208773]
+transform = Transform3D(2.9802322e-08, 0, 1, 0, 1, 0, -1, 0, 2.9802322e-08, -27.854881, 8.792652, -0.66485596)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Node3D/lmpa" unique_id=1111026586]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node3D/lmpa/CSGSphere3D" unique_id=856909241]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/lmpa" unique_id=1108469821]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -0.018310547, 8.0037943e-10, 0)
+radius = 0.065
+height = 3.465
+
+[node name="lmpa2" type="Node3D" parent="Node3D" unique_id=1638469165]
+transform = Transform3D(2.9802322e-08, 0, 1, 0, 1, 0, -1, 0, 2.9802322e-08, -38.44576, 8.792652, -0.66485596)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Node3D/lmpa2" unique_id=1316220731]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node3D/lmpa2/CSGSphere3D" unique_id=322680156]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/lmpa2" unique_id=139888190]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -0.018310547, 8.0037943e-10, 0)
+radius = 0.065
+height = 3.465
+
+[node name="lmpa3" type="Node3D" parent="Node3D" unique_id=614080666]
+transform = Transform3D(-1, 0, -1.3909066e-08, 0, 1, 0, 1.3909066e-08, 0, -1, -25.25533, 8.97102, 2.5792809)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Node3D/lmpa3" unique_id=1592466071]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node3D/lmpa3/CSGSphere3D" unique_id=709482117]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/lmpa3" unique_id=1322378799]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -0.018310547, 8.0037943e-10, 0)
+radius = 0.065
+height = 3.465
+
+[node name="lmpa4" type="Node3D" parent="Node3D" unique_id=1337919428]
+transform = Transform3D(2.9802322e-08, 0, 1, 0, 1, 0, -1, 0, 2.9802322e-08, -18.940521, 6.6297, 4.99596)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Node3D/lmpa4" unique_id=1185998533]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node3D/lmpa4/CSGSphere3D" unique_id=1308675415]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/lmpa4" unique_id=738094608]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -0.018310547, 8.0037943e-10, 0)
+radius = 0.065
+height = 3.465
+
+[node name="lmpa5" type="Node3D" parent="Node3D" unique_id=2041006891]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3439522, 2.2140481, 1.6053581)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Node3D/lmpa5" unique_id=1866618220]
+radius = 0.2122828
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node3D/lmpa5/CSGSphere3D" unique_id=2027634074]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Node3D/lmpa5" unique_id=446369272]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -0.07378006, 0, 0)
+radius = 0.065
+height = 6.3543186

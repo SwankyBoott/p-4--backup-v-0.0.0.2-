@@ -1,0 +1,175 @@
+[gd_scene format=3 uid="uid://bcj3yknk6xgei"]
+
+[ext_resource type="PackedScene" uid="uid://yg7lkacrnt5u" path="res://character.tscn" id="1_t75ai"]
+[ext_resource type="Texture2D" uid="uid://do26x7bagrf05" path="res://materials/sky.webp" id="2_q03ld"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ffkby"]
+albedo_texture = ExtResource("2_q03ld")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h5ht3"]
+albedo_texture = ExtResource("2_q03ld")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mcpk1"]
+albedo_texture = ExtResource("2_q03ld")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g4jmu"]
+albedo_texture = ExtResource("2_q03ld")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c8ua8"]
+albedo_texture = ExtResource("2_q03ld")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p0t6l"]
+albedo_texture = ExtResource("2_q03ld")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jh5kk"]
+albedo_texture = ExtResource("2_q03ld")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bnu3x"]
+albedo_texture = ExtResource("2_q03ld")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q03ld"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rdab6"]
+albedo_texture = ExtResource("2_q03ld")
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_ffkby"]
+panorama = ExtResource("2_q03ld")
+
+[sub_resource type="Sky" id="Sky_h5ht3"]
+sky_material = SubResource("PanoramaSkyMaterial_ffkby")
+
+[sub_resource type="Environment" id="Environment_mcpk1"]
+background_mode = 2
+sky = SubResource("Sky_h5ht3")
+
+[node name="Node3D" type="Node3D" unique_id=687823444]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1906325694]
+transform = Transform3D(0.06609729, -0.8683594, -0.49151102, -0.87011397, -0.2912668, 0.39757422, -0.4883982, 0.40139198, -0.7748237, -99.31046, 78.50612, -55.81833)
+light_energy = 0.436
+shadow_enabled = true
+directional_shadow_max_distance = 1.0
+
+[node name="stair" type="Node3D" parent="." unique_id=1945799217]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.359001)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="stair" unique_id=908889560]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.8303838, -0.23851418, 7.04661)
+material_override = SubResource("StandardMaterial3D_ffkby")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="stair" unique_id=2024202894]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -2.8303838, -0.6385142, 7.04661)
+material_override = SubResource("StandardMaterial3D_h5ht3")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="stair" unique_id=903793059]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -3.8303838, -1.0385141, 7.04661)
+material_override = SubResource("StandardMaterial3D_mcpk1")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="stair" unique_id=2130597046]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2, 70.403275)
+use_collision = true
+size = Vector3(50, 0.25, 129.79518)
+
+[node name="stair" type="Node3D" parent="stair" unique_id=1678601414]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.110127, -3.0093167)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="stair/stair" unique_id=1340279681]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1.1789331, -0.23851418, 10.055927)
+material_override = SubResource("StandardMaterial3D_g4jmu")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="stair/stair" unique_id=2131392646]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.17893314, -0.63851416, 10.055927)
+material_override = SubResource("StandardMaterial3D_c8ua8")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="stair/stair" unique_id=481227272]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.82106686, -1.0385141, 10.055927)
+material_override = SubResource("StandardMaterial3D_p0t6l")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="stair/stair" unique_id=1749479324]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.8210669, -1.4385142, 10.055927)
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="stair2" type="Node3D" parent="stair" unique_id=1170651006]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.902014, -4.9836054)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="stair/stair2" unique_id=1699701422]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 4.027734, -0.23851418, 12.030215)
+material_override = SubResource("StandardMaterial3D_jh5kk")
+use_collision = true
+size = Vector3(3, 0.25, 2.7490234)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="stair/stair2" unique_id=1208076447]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 2.1532218, -0.63851416, 12.030215)
+material_override = SubResource("StandardMaterial3D_bnu3x")
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="stair/stair2" unique_id=1990493861]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1.1532218, -1.0385141, 12.030215)
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="stair/stair2" unique_id=936886374]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.1532216, -1.4385142, 12.030215)
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="stair" type="Node3D" parent="stair/stair2" unique_id=240399586]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.110127, -3.0093167)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="stair/stair2/stair" unique_id=462761203]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 3.1625385, -1.4385142, 15.039532)
+use_collision = true
+size = Vector3(3, 0.25, 1)
+
+[node name="самасенаа" type="Node3D" parent="." unique_id=265328042]
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="самасенаа" unique_id=1215069218]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.9994087, -5.5479946)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="самасенаа/CSGSphere3D" unique_id=1170564460]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0404315, -0.03909886)
+light_color = Color(0.98574907, 0.99630326, 0, 1)
+light_energy = 16.0
+light_indirect_energy = 16.0
+light_size = 0.927
+omni_range = 42.312634
+
+[node name="CSGBox3D" type="CSGBox3D" parent="самасенаа" unique_id=118835009]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.978475, 3.3133717, 8.17732)
+size = Vector3(2.2163086, 3.506958, 0.39013672)
+material = SubResource("StandardMaterial3D_q03ld")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="самасенаа" unique_id=1175214306]
+transform = Transform3D(1.9106855e-15, 4.371139e-08, -1, 1, -4.371139e-08, 0, -4.371139e-08, -1, -4.371139e-08, 0.42973328, -1.2, 8.046417)
+material_override = SubResource("StandardMaterial3D_rdab6")
+use_collision = true
+size = Vector3(50, 0.25, 50.836823)
+
+[node name="брутализм с окнами на вид, а потом переходит в пулс и горка к двери" type="CSGBox3D" parent="самасенаа" unique_id=1275736650]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.678364, 10.425461, 142.87985)
+size = Vector3(114.53418, 36.040527, 100.89526)
+
+[node name="player" parent="." unique_id=327263614 instance=ExtResource("1_t75ai")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.116846, 0, 16.341911)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1404735394]
+environment = SubResource("Environment_mcpk1")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=1644423261]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.06075, 78.14638, -66.562416)
+radius = 5.751647
